@@ -3009,7 +3009,7 @@
       (reference "J3") (unit 1) (value "Composite") (footprint "Ddraig:KLPX0848A2RG")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/c01ad78a-8b71-4615-ba6a-b588562a7eff"
-      (reference "J4") (unit 1) (value "DB15_Female_HighDensity") (footprint "")
+      (reference "J4") (unit 1) (value "DB15_Female_HighDensity") (footprint "Connector_Dsub:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm")
     )
     (path "/d5c7e94e-ee8c-4fa2-b6f9-333fadc34caa/ed13ecf5-0a7e-4a18-a92b-e7a01e79ff05"
       (reference "L1") (unit 1) (value "4.7uH") (footprint "Inductor_SMD:L_1206_3216Metric")
@@ -3111,7 +3111,7 @@
       (reference "X1") (unit 1) (value "14.318Mhz") (footprint "Oscillator:Oscillator_DIP-8")
     )
     (path "/d5c7e94e-ee8c-4fa2-b6f9-333fadc34caa/6f712bc1-4eb0-439a-a5fd-bb1c6396a84d"
-      (reference "Y1") (unit 1) (value "21.47727Mhz") (footprint "Crystal:Crystal_HC50_Vertical")
+      (reference "Y1") (unit 1) (value "21.47727Mhz") (footprint "Crystal:Crystal_HC49-U_Vertical")
     )
   )
 )

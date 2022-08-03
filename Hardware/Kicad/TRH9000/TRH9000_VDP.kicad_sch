@@ -4558,7 +4558,7 @@
     (uuid 6f712bc1-4eb0-439a-a5fd-bb1c6396a84d)
     (property "Reference" "Y1" (id 0) (at 54.61 145.5928 0))
     (property "Value" "21.47727Mhz" (id 1) (at 54.61 147.9042 0))
-    (property "Footprint" "Crystal:Crystal_HC50_Vertical" (id 2) (at 54.61 152.4 0)
+    (property "Footprint" "Crystal:Crystal_HC49-U_Vertical" (id 2) (at 54.61 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 54.61 152.4 0)
