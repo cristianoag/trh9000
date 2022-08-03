@@ -2305,7 +2305,7 @@
     (property "Value" "74HC32" (id 1) (at 147.32 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "digikey-footprints:DIP-14_W3mm" (id 2) (at 165.1 120.65 0)
+    (property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm" (id 2) (at 165.1 120.65 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
     (property "Datasheet" "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hc32" (id 3) (at 165.1 118.11 0)
@@ -2573,7 +2573,7 @@
     (property "Value" "74HC138" (id 1) (at 102.87 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 118.11 128.27 0)
+    (property "Footprint" "Package_SO:SO-16_3.9x9.9mm_P1.27mm" (id 2) (at 118.11 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 118.11 128.27 0)
@@ -2931,7 +2931,7 @@
       (reference "C1") (unit 1) (value "27pF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/d5c7e94e-ee8c-4fa2-b6f9-333fadc34caa/da6bfb64-a33a-4cf2-a14f-42ddd8c8c720"
-      (reference "C2") (unit 1) (value "100nF") (footprint "")
+      (reference "C2") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/d5c7e94e-ee8c-4fa2-b6f9-333fadc34caa/7abbb0b8-25fa-4ba9-afed-652280d66707"
       (reference "C3") (unit 1) (value "47uF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
@@ -3038,17 +3038,8 @@
     (path "/d5c7e94e-ee8c-4fa2-b6f9-333fadc34caa/a28ec14a-51f4-4284-bbf7-4d92023fb9d7"
       (reference "R6") (unit 1) (value "4K7") (footprint "LED_SMD:LED_0805_2012Metric")
     )
-    (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/67662d22-a245-4940-bd65-03651bcaa81c"
-      (reference "R7") (unit 1) (value "470R") (footprint "LED_SMD:LED_0805_2012Metric")
-    )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/bbaafd10-2e61-4d37-80f8-27fc5a2b4449"
       (reference "R8") (unit 1) (value "2K2") (footprint "LED_SMD:LED_0805_2012Metric")
-    )
-    (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/37410a4d-2046-4ddf-bb0e-18d481708b5d"
-      (reference "R9") (unit 1) (value "470R") (footprint "LED_SMD:LED_0805_2012Metric")
-    )
-    (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/643d4177-75b8-41e9-8c82-b89d4a4fad42"
-      (reference "R10") (unit 1) (value "470R") (footprint "LED_SMD:LED_0805_2012Metric")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/fc1eeac4-dcc2-422b-a258-9423bfa5a1ef"
       (reference "R11") (unit 1) (value "4K7") (footprint "LED_SMD:LED_0805_2012Metric")
@@ -3089,8 +3080,17 @@
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/aa99ea10-99b5-4055-9a18-1c230833ab96"
       (reference "R23") (unit 1) (value "240R") (footprint "LED_SMD:LED_0805_2012Metric")
     )
+    (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/ca541a19-f6cc-45bc-af9b-19d34164bfc7"
+      (reference "RV1") (unit 1) (value "500R") (footprint "Potentiometer_SMD:Potentiometer_Bourns_3314G_Vertical")
+    )
+    (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/1325e162-b47f-49fb-8630-ad924a927842"
+      (reference "RV2") (unit 1) (value "500R") (footprint "Potentiometer_SMD:Potentiometer_Bourns_3314G_Vertical")
+    )
+    (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/a3e1189c-b975-4c18-acc9-478a0dd0a5b4"
+      (reference "RV3") (unit 1) (value "500R") (footprint "Potentiometer_SMD:Potentiometer_Bourns_3314G_Vertical")
+    )
     (path "/d5c7e94e-ee8c-4fa2-b6f9-333fadc34caa/c04f413f-eb21-4d40-8e64-40127e6da87a"
-      (reference "U1") (unit 1) (value "V9990") (footprint "Ddraig:QFP-128_28x28_Pitch0.8mm")
+      (reference "U1") (unit 1) (value "V9990") (footprint "trh9000:QFP-128_28x28_Pitch0.8mm")
     )
     (path "/d5c7e94e-ee8c-4fa2-b6f9-333fadc34caa/957e464e-fa1e-4fdd-98f3-d28c0b05174e"
       (reference "U2") (unit 1) (value "KM428C256") (footprint "")
@@ -3099,10 +3099,10 @@
       (reference "U3") (unit 1) (value "KM428C256") (footprint "")
     )
     (path "/f2de766b-6e04-4297-9ac6-8ed19da3519b"
-      (reference "U4") (unit 1) (value "74HC138") (footprint "")
+      (reference "U4") (unit 1) (value "74HC138") (footprint "Package_SO:SO-16_3.9x9.9mm_P1.27mm")
     )
     (path "/2c31a37b-5a2e-4dde-9eb0-70323652ba66"
-      (reference "U5") (unit 1) (value "74HC32") (footprint "digikey-footprints:DIP-14_W3mm")
+      (reference "U5") (unit 1) (value "74HC32") (footprint "Package_SO:SO-14_3.9x8.65mm_P1.27mm")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/a944b42d-633e-4624-b6a6-e9241b129cf1"
       (reference "U6") (unit 1) (value "CXA2075M") (footprint "Package_SO:SOP-24_7.5x15.4mm_P1.27mm")
