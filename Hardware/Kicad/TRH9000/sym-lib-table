@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "TRH9000")(type "KiCad")(uri "C:/Users/crist/OneDrive/Personal/11. Electronics/V9990/trh9000/Hardware/Kicad/Libraries/TRH9000.kicad_sym")(options "")(descr ""))
+  (lib (name "msx-con")(type "KiCad")(uri "C:/Users/crist/OneDrive/Personal/11. Electronics/V9990/trh9000/Hardware/Kicad/Libraries/msx-con.kicad_sym")(options "")(descr ""))
+)
