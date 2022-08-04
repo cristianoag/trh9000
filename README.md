@@ -19,5 +19,6 @@ The goal is to make the card more accessible and improve the amount of software 
 
 ## Project Status
 
-* 8/2/2022 - I just finished the first (rev0) draft of the schematics and I'll run it through more experienced MSX hardware developers. Please, if you feel you have something to add, clone the repo and contribute. You can also reach out if you want to suggest something. You can see a PDF with the first draft [here](Docs/TRH9000_Schema_Revision_0.pdf). Kicad files are stored on the [hardware/kicad](hardware/Kicad/) folder. 
+* 8/4/2022 - Reviewed the footprints in preparation to start creating the first PCB draft. Had to create a custom TSOP-2-40 footprint as I could't find any on the net. Using 0805 for the resistors and ceramic capacitors. THT electrolytics. (REV0)
+* 8/2/2022 - I just finished the first (rev0) draft of the schematics and I'll run it through more experienced MSX hardware developers. Please, if you feel you have something to add, clone the repo and contribute. You can also reach out if you want to suggest something. You can see a PDF with the first draft [here](Docs/TRH9000_Schema_Revision_0.pdf). Kicad files are stored on the [hardware/kicad](hardware/Kicad/) folder. (REV0)
 
