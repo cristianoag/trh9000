@@ -3003,10 +3003,10 @@
       (reference "J1") (unit 1) (value "MSX_SLOT_CONNECTOR") (footprint "msx:msx_cartridge")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/8a9fe807-e426-499b-ab72-b66db1aca921"
-      (reference "J2") (unit 1) (value "S-Video") (footprint "Ddraig:MINI-DIN-4-TE_5749181-1")
+      (reference "J2") (unit 1) (value "S-Video") (footprint "trh9000:MINI-DIN-4-TE_5749181-1")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/85078b1c-c079-46c7-9e73-245291760811"
-      (reference "J3") (unit 1) (value "Composite") (footprint "Ddraig:KLPX0848A2RG")
+      (reference "J3") (unit 1) (value "Composite") (footprint "trh9000:KLPX0848A2RG")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/c01ad78a-8b71-4615-ba6a-b588562a7eff"
       (reference "J4") (unit 1) (value "DB15_Female_HighDensity") (footprint "Connector_Dsub:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm")
@@ -3021,64 +3021,64 @@
       (reference "Q1") (unit 1) (value "BC817") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/d5c7e94e-ee8c-4fa2-b6f9-333fadc34caa/f8b7d95a-19da-4d9e-afce-0f7bb1cc510a"
-      (reference "R1") (unit 1) (value "4K7") (footprint "LED_SMD:LED_0805_2012Metric")
+      (reference "R1") (unit 1) (value "4K7") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/d5c7e94e-ee8c-4fa2-b6f9-333fadc34caa/91d00881-8ed6-4fda-9d0b-af5f30463cb2"
-      (reference "R2") (unit 1) (value "4K7") (footprint "LED_SMD:LED_0805_2012Metric")
+      (reference "R2") (unit 1) (value "4K7") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/d5c7e94e-ee8c-4fa2-b6f9-333fadc34caa/faa093de-0bf2-4620-8fb0-0c57b59f2713"
-      (reference "R3") (unit 1) (value "10M") (footprint "LED_SMD:LED_0805_2012Metric")
+      (reference "R3") (unit 1) (value "10M") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/d5c7e94e-ee8c-4fa2-b6f9-333fadc34caa/db176cf6-81c1-49b9-b6e9-4cbc7eae2c58"
-      (reference "R4") (unit 1) (value "4K7") (footprint "LED_SMD:LED_0805_2012Metric")
+      (reference "R4") (unit 1) (value "4K7") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/d5c7e94e-ee8c-4fa2-b6f9-333fadc34caa/ffb43c0e-ee01-4f47-a9d1-0e05a6be4ec9"
-      (reference "R5") (unit 1) (value "4K7") (footprint "LED_SMD:LED_0805_2012Metric")
+      (reference "R5") (unit 1) (value "4K7") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/d5c7e94e-ee8c-4fa2-b6f9-333fadc34caa/a28ec14a-51f4-4284-bbf7-4d92023fb9d7"
-      (reference "R6") (unit 1) (value "4K7") (footprint "LED_SMD:LED_0805_2012Metric")
+      (reference "R6") (unit 1) (value "4K7") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/bbaafd10-2e61-4d37-80f8-27fc5a2b4449"
-      (reference "R8") (unit 1) (value "2K2") (footprint "LED_SMD:LED_0805_2012Metric")
+      (reference "R8") (unit 1) (value "2K2") (footprint "Resistor_SMD:R_0815_2038Metric")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/fc1eeac4-dcc2-422b-a258-9423bfa5a1ef"
-      (reference "R11") (unit 1) (value "4K7") (footprint "LED_SMD:LED_0805_2012Metric")
+      (reference "R11") (unit 1) (value "4K7") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/7675bc3f-764b-4fe7-a0a6-72e35a8e6b25"
-      (reference "R12") (unit 1) (value "1K") (footprint "LED_SMD:LED_0805_2012Metric")
+      (reference "R12") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/181184ae-f861-4c75-89c7-401c90157006"
-      (reference "R13") (unit 1) (value "100R") (footprint "LED_SMD:LED_0805_2012Metric")
+      (reference "R13") (unit 1) (value "100R") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/97660318-4aba-41b0-a8cf-07b891b6b71d"
-      (reference "R14") (unit 1) (value "2K2") (footprint "LED_SMD:LED_0805_2012Metric")
+      (reference "R14") (unit 1) (value "2K2") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/b7aca883-2322-49a1-a36a-42806ccc7751"
-      (reference "R15") (unit 1) (value "220R") (footprint "LED_SMD:LED_0805_2012Metric")
+      (reference "R15") (unit 1) (value "220R") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/b0937c3a-a9e3-41a7-9131-8ef57b1f3852"
-      (reference "R16") (unit 1) (value "2K61") (footprint "LED_SMD:LED_0805_2012Metric")
+      (reference "R16") (unit 1) (value "2K61") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/3db40423-0d36-43c3-8cad-e1ab1f0c3c41"
-      (reference "R17") (unit 1) (value "75R") (footprint "LED_SMD:LED_0805_2012Metric")
+      (reference "R17") (unit 1) (value "75R") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/c7dc9ef3-3c43-4b9a-a1b7-0c5a827b3d36"
-      (reference "R18") (unit 1) (value "75R") (footprint "LED_SMD:LED_0805_2012Metric")
+      (reference "R18") (unit 1) (value "75R") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/b53564ee-f5b3-419e-8c39-c46f80be5dd7"
-      (reference "R19") (unit 1) (value "75R") (footprint "LED_SMD:LED_0805_2012Metric")
+      (reference "R19") (unit 1) (value "75R") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/77f1f912-0f2c-44ee-8d54-c73095077386"
-      (reference "R20") (unit 1) (value "43R") (footprint "LED_SMD:LED_0805_2012Metric")
+      (reference "R20") (unit 1) (value "43R") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/09537b09-41ba-4c95-8358-ee46874031b5"
-      (reference "R21") (unit 1) (value "75R") (footprint "LED_SMD:LED_0805_2012Metric")
+      (reference "R21") (unit 1) (value "75R") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/650f1aaf-14ad-4aba-98f3-c50e1f2ec7a1"
-      (reference "R22") (unit 1) (value "75R") (footprint "LED_SMD:LED_0805_2012Metric")
+      (reference "R22") (unit 1) (value "75R") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/aa99ea10-99b5-4055-9a18-1c230833ab96"
-      (reference "R23") (unit 1) (value "240R") (footprint "LED_SMD:LED_0805_2012Metric")
+      (reference "R23") (unit 1) (value "240R") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/ca541a19-f6cc-45bc-af9b-19d34164bfc7"
       (reference "RV1") (unit 1) (value "500R") (footprint "Potentiometer_SMD:Potentiometer_Bourns_3314G_Vertical")
@@ -3093,10 +3093,10 @@
       (reference "U1") (unit 1) (value "V9990") (footprint "trh9000:QFP-128_28x28_Pitch0.8mm")
     )
     (path "/d5c7e94e-ee8c-4fa2-b6f9-333fadc34caa/957e464e-fa1e-4fdd-98f3-d28c0b05174e"
-      (reference "U2") (unit 1) (value "KM428C256") (footprint "")
+      (reference "U2") (unit 1) (value "KM428C256") (footprint "trh9000:TSOP-II-40_10.16x18.41mm_P0.8mm")
     )
     (path "/d5c7e94e-ee8c-4fa2-b6f9-333fadc34caa/6f2e24f4-f74b-4fbb-9ba3-517d38b1af3f"
-      (reference "U3") (unit 1) (value "KM428C256") (footprint "")
+      (reference "U3") (unit 1) (value "KM428C256") (footprint "trh9000:TSOP-II-40_10.16x18.41mm_P0.8mm")
     )
     (path "/f2de766b-6e04-4297-9ac6-8ed19da3519b"
       (reference "U4") (unit 1) (value "74HC138") (footprint "Package_SO:SO-16_3.9x9.9mm_P1.27mm")
