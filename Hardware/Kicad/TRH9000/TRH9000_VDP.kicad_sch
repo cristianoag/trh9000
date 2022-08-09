@@ -6,8 +6,8 @@
 
   (title_block
     (title "TRH9000")
-    (date "2022-08-02")
-    (rev "1")
+    (date "2022-08-04")
+    (rev "0")
     (company "The Retro Hacker")
     (comment 2 "Shared under CERN-OHL-S license")
     (comment 3 "TRH9000 - Open Source MSX Graphics Card based on the Yamaha V9990")

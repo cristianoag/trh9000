@@ -6,8 +6,8 @@
 
   (title_block
     (title "TRH9000")
-    (date "2022-08-02")
-    (rev "1")
+    (date "2022-08-04")
+    (rev "0")
     (company "The Retro Hacker")
     (comment 2 "Shared under CERN-OHL-S license")
     (comment 3 "TRH9000 - Open Source MSX Graphics Card based on the Yamaha V9990")
@@ -3003,10 +3003,10 @@
       (reference "J1") (unit 1) (value "RGB") (footprint "Connector_Dsub:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/8a9fe807-e426-499b-ab72-b66db1aca921"
-      (reference "J2") (unit 1) (value "S-Video") (footprint "trh9000:MINI-DIN-4-TE_5749181-1")
+      (reference "J2") (unit 1) (value "S-Video") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/85078b1c-c079-46c7-9e73-245291760811"
-      (reference "J3") (unit 1) (value "Composite") (footprint "trh9000:KLPX0848A2RG")
+      (reference "J3") (unit 1) (value "Composite") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical")
     )
     (path "/5c1dc888-6f7a-4cd6-bda7-5a87c57e6ccc"
       (reference "J100") (unit 1) (value "MSX_SLOT_CONNECTOR") (footprint "msx:msx_cartridge")
