@@ -2915,9 +2915,6 @@
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/934a09c3-b597-416d-906b-0656168b01d8"
       (reference "#PWR0147") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/0628ec9c-f191-4802-9fd0-40102bc0864e"
-      (reference "#PWR0148") (unit 1) (value "GND") (footprint "")
-    )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/6e6a510d-8d8d-463e-92e6-27684ebdb1ca"
       (reference "#PWR0149") (unit 1) (value "GND") (footprint "")
     )
@@ -3005,9 +3002,6 @@
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/8a9fe807-e426-499b-ab72-b66db1aca921"
       (reference "J2") (unit 1) (value "S-Video") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
-    (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/85078b1c-c079-46c7-9e73-245291760811"
-      (reference "J3") (unit 1) (value "Composite") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical")
-    )
     (path "/5c1dc888-6f7a-4cd6-bda7-5a87c57e6ccc"
       (reference "J100") (unit 1) (value "MSX_SLOT_CONNECTOR") (footprint "msx:msx_cartridge")
     )
@@ -3039,7 +3033,7 @@
       (reference "R6") (unit 1) (value "4K7") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/bbaafd10-2e61-4d37-80f8-27fc5a2b4449"
-      (reference "R8") (unit 1) (value "2K2") (footprint "Resistor_SMD:R_0815_2038Metric")
+      (reference "R8") (unit 1) (value "2K2") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/fc1eeac4-dcc2-422b-a258-9423bfa5a1ef"
       (reference "R11") (unit 1) (value "4K7") (footprint "Resistor_SMD:R_0805_2012Metric")
@@ -3093,10 +3087,10 @@
       (reference "U1") (unit 1) (value "V9990") (footprint "trh9000:QFP-128_28x28_Pitch0.8mm")
     )
     (path "/d5c7e94e-ee8c-4fa2-b6f9-333fadc34caa/957e464e-fa1e-4fdd-98f3-d28c0b05174e"
-      (reference "U2") (unit 1) (value "KM428C256") (footprint "trh9000:TSOP-II-40_10.16x18.41mm_P0.8mm")
+      (reference "U2") (unit 1) (value "KM428C256") (footprint "trh9000:SOJ-40_400mil")
     )
     (path "/d5c7e94e-ee8c-4fa2-b6f9-333fadc34caa/6f2e24f4-f74b-4fbb-9ba3-517d38b1af3f"
-      (reference "U3") (unit 1) (value "KM428C256") (footprint "trh9000:TSOP-II-40_10.16x18.41mm_P0.8mm")
+      (reference "U3") (unit 1) (value "KM428C256") (footprint "trh9000:SOJ-40_400mil")
     )
     (path "/f2de766b-6e04-4297-9ac6-8ed19da3519b"
       (reference "U4") (unit 1) (value "74HC138") (footprint "Package_SO:SO-16_3.9x9.9mm_P1.27mm")
