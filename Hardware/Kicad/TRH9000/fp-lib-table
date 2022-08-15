@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name "msx")(type "KiCad")(uri "C:/Users/crist/OneDrive/Personal/11. Electronics/V9990/trh9000/Hardware/Kicad/Libraries/msx.pretty")(options "")(descr ""))
-  (lib (name "trh9000")(type "KiCad")(uri "C:/Users/crist/OneDrive/Personal/11. Electronics/V9990/trh9000/Hardware/Kicad/Libraries/trh9000.pretty")(options "")(descr ""))
+  (lib (name "trh9000")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Footprints/trh9000.pretty")(options "")(descr ""))
+  (lib (name "Ultra-MSX")(type "KiCad")(uri "E:/Documents/Teknikprojekt/Hardware/MSX/MSX_Ultra/Hardware/Libraries/Ultra-MSX.pretty")(options "")(descr ""))
 )
