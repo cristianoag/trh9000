@@ -17,14 +17,16 @@ TRH9000 is the name of a brand new open-source implementation of the GFX9000. It
 
 The goal is to make the card more accessible and improve the amount of software available for it. 
 
+## Contributions
+
 There are a few folks activelly helping with the project and I would like to call them out here:
 
 * Alexandre Souza
 * Darlei Duarte
+* Doomn00b
 * lintweaker
 * Luciano Sturaro
 * Thiago Valença
-
 
 ## Development Log 
 
