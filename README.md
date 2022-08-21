@@ -1,4 +1,3 @@
-![The Retro Hacker](https://raw.githubusercontent.com/cristianoag/trh9000/main/Images/TRH_Logo.png)
 # TRH9000
 The Yamaha V9990 based open-source video card for the MSX
 
