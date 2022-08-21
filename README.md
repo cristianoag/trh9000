@@ -17,16 +17,14 @@ TRH9000 is the name of a brand new open-source implementation of the GFX9000. It
 
 The goal is to make the card more accessible and improve the amount of software available for it. 
 
-## Contributions
-
 There are a few folks activelly helping with the project and I would like to call them out here:
 
 * Alexandre Souza
 * Darlei Duarte
-* Doomn00b
 * lintweaker
 * Luciano Sturaro
 * Thiago Valença
+
 
 ## Development Log 
 
@@ -34,4 +32,7 @@ There are a few folks activelly helping with the project and I would like to cal
 * 8/8/2022 - Initial component placement on the PCB. Still lot of work to do in order to improve routing. 
 * 8/4/2022 - Reviewed the footprints in preparation to start creating the first PCB draft. Had to create a custom TSOP-2-40 footprint as I could't find any on the net. Using 0805 for the resistors and ceramic capacitors. THT electrolytics. Reviewing the list of pending questions to get everything ready for the PCB creation. (REV0)
 * 8/2/2022 - I just finished the first (rev0) draft of the schematics and I'll run it through more experienced MSX hardware developers. Please, if you feel you have something to add, clone the repo and contribute. You can also reach out if you want to suggest something. You can see a PDF with the first draft [here](Docs/TRH9000_Schema_Revision_0.pdf). Kicad files are stored on the [hardware/kicad](hardware/Kicad/) folder. (REV0)
+* 8/15/2022 - Merged changes proposed by Doomn00b. 
+* 8/20/2022 - Routing. Almost finished routing for the VDP. Moved back the footprint for the 14mhz oscillator to THT as it is easier to find outside US/Europe and I have a bunch laying around here. Organized all components into the PCB. Removed the holed in the cartridge so I can better measure them in the standard MSX cartridge. Changed the RGB connector footprint to a shorter version so we can fit it in the standard size cartridge. Fixed multiple footprints to 0805 as we will be standardizing in that size. 
+
 

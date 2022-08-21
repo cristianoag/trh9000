@@ -179,19 +179,19 @@
       )
     )
     (symbol "TRH9000:74VHC138" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (id 0) (at -17.78 12.7 0)
+      (property "Reference" "U4" (id 0) (at -6.35 13.97 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "74VHC138" (id 1) (at -17.78 10.16 0)
+      (property "Value" "74HC138" (id 1) (at -6.35 -13.97 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Footprint" "Package_SO:SO-16_3.9x9.9mm_P1.27mm" (id 2) (at 38.1 -5.08 0)
+      (property "Footprint" "Package_SO:SO-16_5.3x10.2mm_P1.27mm" (id 2) (at 38.1 -5.08 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/TC74VHC138F,FN,FT,FK.pdf" (id 3) (at 63.5 -7.62 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "MPN" "74VHC138FT" (id 4) (at 25.4 -2.54 0)
+      (property "MPN" "74HC138" (id 4) (at 25.4 -2.54 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Manufacturer" " Toshiba Semiconductor and Storage" (id 5) (at 35.56 2.54 0)
@@ -1434,6 +1434,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 2bf1e24a-58a2-43f5-af0f-9f1931a25db3)
   )
+  (wire (pts (xy 82.55 59.69) (xy 87.63 59.69))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 2fb87bc2-370a-45b1-b36e-9369f9a58c0c)
+  )
   (wire (pts (xy 118.11 54.61) (xy 123.19 54.61))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 34221388-adb9-49cd-b833-b8d0849760bf)
@@ -1647,10 +1651,6 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid aceb4cc3-bec4-4be5-9592-62b1cb86b7f0)
   )
-  (wire (pts (xy 82.55 59.69) (xy 87.63 59.69))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid adf0aff5-a80a-4de7-ba87-4867bef5eceb)
-  )
   (bus (pts (xy 160.02 74.93) (xy 160.02 77.47))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b2a4da6a-9e8c-4bf2-98e1-a86327d4d144)
@@ -1660,7 +1660,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b3287ee3-ee3d-4d86-bd73-6cb215cde2af)
   )
-  (wire (pts (xy 82.55 62.23) (xy 87.63 62.23))
+  (wire (pts (xy 81.28 62.23) (xy 87.63 62.23))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b3b7f7f8-74c1-4d37-ba69-369b46eed90f)
   )
@@ -1856,7 +1856,7 @@
     (uuid 3283842d-8033-4511-a9bf-05ce00277a16)
   )
   (text "Cartridge-dummy - to allow testing \nof the mechanical form-factor."
-    (at 27.94 166.37 0)
+    (at 39.37 176.53 0)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 4f922aee-e692-45ff-8ba8-6cdceecbf403)
   )
@@ -1866,10 +1866,6 @@
     (uuid 6a4a2088-2ad8-45c6-ad13-926f2d652e5a)
   )
 
-  (label "~{MERQ}" (at 82.55 59.69 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 000568ae-6796-4b14-9028-2180e1963760)
-  )
   (label "~{WAIT}" (at 123.19 54.61 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 059650d5-f02d-40fd-8e10-8d8dbb62ddbf)
@@ -1942,7 +1938,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 49e7acde-9da7-42bf-81f5-bcc63132e0d7)
   )
-  (label "~{RD}" (at 82.55 62.23 180)
+  (label "~{RD}" (at 81.28 62.23 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 4d329d9c-4f06-4ee2-b076-aaab0ba33f6a)
   )
@@ -2130,6 +2126,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e67ceedf-a73c-41e6-ab8f-326bae90c12a)
   )
+  (label "~{MERQ}" (at 82.55 59.69 180)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid f32b6e63-4ab8-45e3-a167-51e8ccb2b8f0)
+  )
   (label "D6" (at 82.55 95.25 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid f4eb90be-a293-4e98-9956-dcf55dd96a10)
@@ -2153,10 +2153,10 @@
     (property "Reference" "C25" (id 0) (at 62.23 99.06 90)
       (effects (font (size 1.143 1.143)))
     )
-    (property "Value" "C_CL21B105KBFNNNF" (id 1) (at 68.199 98.806 0)
+    (property "Value" "1 µF" (id 1) (at 68.199 98.806 0)
       (effects (font (size 1.143 1.143)) (justify left bottom) hide)
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (id 2) (at 73.66 100.33 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at 73.66 100.33 0)
       (effects (font (size 0.508 0.508)) hide)
     )
     (property "Datasheet" "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KBFNNNF.jsp" (id 3) (at 74.93 100.33 0)
@@ -2182,22 +2182,13 @@
     (property "Reference" "C10" (id 0) (at 142.24 102.87 90)
       (effects (font (size 1.143 1.143)) (justify left))
     )
-    (property "Value" "C_CC0805JPX7R9BB104" (id 1) (at 147.32 100.33 0)
+    (property "Value" "0.1uF" (id 1) (at 147.32 100.33 0)
       (effects (font (size 1.143 1.143)) (justify left bottom) hide)
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at 143.51 113.03 0)
       (effects (font (size 0.508 0.508)) hide)
     )
     (property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" (id 3) (at 142.24 105.41 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Yageo" (id 4) (at 137.16 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "CC0805JPX7R9BB104" (id 5) (at 142.2399 102.87 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser datasheet" "https://www.mouser.se/datasheet/2/427/vjcommercialseries-1764145.pdf" (id 6) (at 139.7 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Capacitance" "0.1uF" (id 7) (at 140.97 107.95 90))
@@ -2223,19 +2214,19 @@
   (symbol (lib_id "TRH9000:T.I_SN74AHCT32D") (at 257.81 92.71 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2c31a37b-5a2e-4dde-9eb0-70323652ba66)
-    (property "Reference" "U5" (id 0) (at 250.19 78.74 0)
+    (property "Reference" "U7" (id 0) (at 250.19 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "T.I_SN74AHCT32D" (id 1) (at 250.19 104.14 0)
+    (property "Value" "74HC32" (id 1) (at 250.19 104.14 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "trh9000:Texas_R-PDSO-G14_3.6x4.4mm" (id 2) (at 270.51 90.17 0)
+    (property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm" (id 2) (at 270.51 90.17 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
     (property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74ahct32" (id 3) (at 270.51 87.63 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
-    (property "MPN" "SN74AHCT32DGVR" (id 5) (at 270.51 82.55 0)
+    (property "MPN" "74HC32" (id 5) (at 270.51 82.55 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
     (property "DK_Detail_Page" "https://www.digikey.se/en/products/detail/texas-instruments/SN74AHCT32DGVR/376444" (id 9) (at 270.51 72.39 0)
@@ -2272,10 +2263,10 @@
     (property "Reference" "C27" (id 0) (at 140.97 109.855 90)
       (effects (font (size 1.143 1.143)))
     )
-    (property "Value" "C_CL21B105KBFNNNF" (id 1) (at 144.399 111.506 0)
+    (property "Value" "1 µF" (id 1) (at 144.399 111.506 0)
       (effects (font (size 1.143 1.143)) (justify left bottom) hide)
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (id 2) (at 149.86 113.03 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at 149.86 113.03 0)
       (effects (font (size 0.508 0.508)) hide)
     )
     (property "Datasheet" "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KBFNNNF.jsp" (id 3) (at 151.13 113.03 0)
@@ -2333,7 +2324,7 @@
     (property "Reference" "C12" (id 0) (at 76.2 115.57 90)
       (effects (font (size 1.143 1.143)) (justify left))
     )
-    (property "Value" "C_CC0805JPX7R9BB104" (id 1) (at 78.74 111.76 0)
+    (property "Value" "0.1uF" (id 1) (at 78.74 111.76 0)
       (effects (font (size 1.143 1.143)) (justify left bottom) hide)
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at 74.93 124.46 0)
@@ -2377,10 +2368,10 @@
     (property "Reference" "C26" (id 0) (at 74.93 110.49 90)
       (effects (font (size 1.143 1.143)))
     )
-    (property "Value" "C_CL21B105KBFNNNF" (id 1) (at 75.819 110.236 0)
+    (property "Value" "1 µF" (id 1) (at 75.819 110.236 0)
       (effects (font (size 1.143 1.143)) (justify left bottom) hide)
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (id 2) (at 81.28 111.76 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at 81.28 111.76 0)
       (effects (font (size 0.508 0.508)) hide)
     )
     (property "Datasheet" "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KBFNNNF.jsp" (id 3) (at 82.55 111.76 0)
@@ -2422,7 +2413,7 @@
     (property "Reference" "C11" (id 0) (at 63.5 104.14 90)
       (effects (font (size 1.143 1.143)) (justify left))
     )
-    (property "Value" "C_CC0805JPX7R9BB104" (id 1) (at 71.12 100.33 0)
+    (property "Value" "0.1uF" (id 1) (at 71.12 100.33 0)
       (effects (font (size 1.143 1.143)) (justify left bottom) hide)
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at 67.31 113.03 0)
@@ -2578,7 +2569,7 @@
     (property "Reference" "U4" (id 0) (at 208.28 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "74VHC138" (id 1) (at 208.28 104.14 0)
+    (property "Value" "74HC138" (id 1) (at 208.28 104.14 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_SO:SO-16_3.9x9.9mm_P1.27mm" (id 2) (at 252.73 95.25 0)
@@ -2587,7 +2578,7 @@
     (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/TC74VHC138F,FN,FT,FK.pdf" (id 3) (at 278.13 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "74VHC138FT" (id 4) (at 240.03 92.71 0)
+    (property "MPN" "74HC138" (id 4) (at 240.03 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufacturer" " Toshiba Semiconductor and Storage" (id 5) (at 250.19 87.63 0)
@@ -2811,9 +2802,6 @@
     (path "/bc7b9d52-219c-453a-9752-d4491f369786/ac3d0939-8654-420b-99ef-f816f001c69c"
       (reference "#PWR013") (unit 1) (value "GND") (footprint "")
     )
-    (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/e6416af1-887e-478a-8d52-c643f5a02506"
-      (reference "#PWR014") (unit 1) (value "GND1") (footprint "")
-    )
     (path "/bc7b9d52-219c-453a-9752-d4491f369786/1b10731f-1cd3-4be8-babf-6b562c9375ac"
       (reference "#PWR015") (unit 1) (value "GND1") (footprint "")
     )
@@ -2843,9 +2831,6 @@
     )
     (path "/bc7b9d52-219c-453a-9752-d4491f369786/17141e8f-9f95-481d-9409-57cd5c12c0cb"
       (reference "#PWR024") (unit 1) (value "+5VA") (footprint "")
-    )
-    (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/d5b34f28-eb6e-477c-86aa-e4ea5af0b42b"
-      (reference "#PWR025") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/b0d119f1-3d88-4cc5-903f-77979635d1e9"
       (reference "#PWR0101") (unit 1) (value "-12V") (footprint "")
@@ -2883,6 +2868,12 @@
     (path "/d5c7e94e-ee8c-4fa2-b6f9-333fadc34caa/064188cc-21f7-45f2-aaf7-9c27b88a9429"
       (reference "#PWR0112") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/658185d9-9b29-466b-a909-a532b9e934ba"
+      (reference "#PWR0113") (unit 1) (value "GND1") (footprint "")
+    )
+    (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/abbdce64-3c3e-4088-9d62-ebf45db5bf07"
+      (reference "#PWR0114") (unit 1) (value "GNDA") (footprint "")
+    )
     (path "/d5c7e94e-ee8c-4fa2-b6f9-333fadc34caa/cfc2eec3-ed8d-43b5-b7e7-3e7d6fb4985b"
       (reference "#PWR0115") (unit 1) (value "GND") (footprint "")
     )
@@ -2897,6 +2888,9 @@
     )
     (path "/d5c7e94e-ee8c-4fa2-b6f9-333fadc34caa/84a45678-8043-4098-8e1f-b5801b6f40aa"
       (reference "#PWR0119") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/9363cb1c-3e18-4499-b81c-64edc0d08951"
+      (reference "#PWR0120") (unit 1) (value "GND") (footprint "")
     )
     (path "/bc7b9d52-219c-453a-9752-d4491f369786/17275835-3b83-40ba-9db4-48a2a603bad3"
       (reference "#PWR0122") (unit 1) (value "+5V") (footprint "")
@@ -2928,12 +2922,6 @@
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/7d874025-d9f9-4f81-8a2a-b5dd7f563a65"
       (reference "#PWR0145") (unit 1) (value "GND") (footprint "")
     )
-    (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/4ccd689a-9704-4af5-a139-0fde0ea7699a"
-      (reference "#PWR0146") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/e80020eb-9caf-48b5-90f6-1b452627e1ab"
-      (reference "#PWR0151") (unit 1) (value "GND") (footprint "")
-    )
     (path "/edcf146e-8434-4b34-9742-8eb99e522d20"
       (reference "BUS1") (unit 1) (value "MSX_SLOT_EDGE-CON") (footprint "trh9000:msx_cartridge")
     )
@@ -2944,37 +2932,34 @@
       (reference "C2") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/bc7b9d52-219c-453a-9752-d4491f369786/6f23a65c-1b2d-489a-b128-681a79a31886"
-      (reference "C3") (unit 1) (value "C_GRM21BR61A476ME15K") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C3") (unit 1) (value "47uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/d5c7e94e-ee8c-4fa2-b6f9-333fadc34caa/659adffc-2662-4f06-bfbf-3e7140189e60"
       (reference "C4") (unit 1) (value "27pF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/bc7b9d52-219c-453a-9752-d4491f369786/023c6b2b-74f3-4196-a01f-e7ffa7a87ed4"
-      (reference "C5") (unit 1) (value "C_CC0805JPX7R9BB104") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C5") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/bc7b9d52-219c-453a-9752-d4491f369786/176b3eb8-b689-4b2c-b69e-1eb6f8183633"
       (reference "C6") (unit 1) (value "10nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/bc7b9d52-219c-453a-9752-d4491f369786/325e5259-9cd8-42ba-ad82-38d7f7cd1797"
-      (reference "C7") (unit 1) (value "C_CC0805JPX7R9BB104") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C7") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/bc7b9d52-219c-453a-9752-d4491f369786/0842b06a-e844-4dc5-9071-ae841d558cd5"
       (reference "C8") (unit 1) (value "10nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
-    (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/9f168243-a617-42f6-a272-0d83c70b5552"
-      (reference "C9") (unit 1) (value "47pF") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
     (path "/2bc3ea8b-0f08-4d19-a105-1ed07b3c1a3d"
-      (reference "C10") (unit 1) (value "C_CC0805JPX7R9BB104") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C10") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/c9e6edbe-489e-42d8-b6f2-ef4bb897fc43"
-      (reference "C11") (unit 1) (value "C_CC0805JPX7R9BB104") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C11") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/97859f98-baf0-41d5-9736-00bb2846cb8e"
-      (reference "C12") (unit 1) (value "C_CC0805JPX7R9BB104") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C12") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
-    (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/4c93bd43-6250-4a29-8bc7-5507a7bff0b1"
-      (reference "C13") (unit 1) (value "C_GRM188D71A106KA73D") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/beb2a2df-eafe-4819-a2e4-afc2355f0ec0"
+      (reference "C13") (unit 1) (value "10µF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/25ad5297-5e04-4327-8b0f-7480bc39279a"
       (reference "C14") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -2998,46 +2983,46 @@
       (reference "C21") (unit 1) (value "220uF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/26fc02a4-b592-47fe-99c2-e2139447cac1"
-      (reference "C25") (unit 1) (value "C_CL21B105KBFNNNF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+      (reference "C25") (unit 1) (value "1 µF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/a0bf6c8e-f4a0-46e5-9fe6-8ec8a47d7fd1"
-      (reference "C26") (unit 1) (value "C_CL21B105KBFNNNF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+      (reference "C26") (unit 1) (value "1 µF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/5c3482c1-04d4-4b39-9706-0e5f9aad3ee5"
-      (reference "C27") (unit 1) (value "C_CL21B105KBFNNNF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+      (reference "C27") (unit 1) (value "1 µF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/bc7b9d52-219c-453a-9752-d4491f369786/08381206-aa46-4b6e-b815-8b45f5c769f9"
-      (reference "C28") (unit 1) (value "C_CL21B105KBFNNNF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+      (reference "C28") (unit 1) (value "1 µF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/bc7b9d52-219c-453a-9752-d4491f369786/a9bc78be-298e-4dbc-8336-97ed532528c9"
-      (reference "C29") (unit 1) (value "C_CC0805JPX7R9BB104") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C29") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/bc7b9d52-219c-453a-9752-d4491f369786/ada408b9-c81c-41f3-b782-6b757b8d3846"
-      (reference "C30") (unit 1) (value "C_CL21B105KBFNNNF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+      (reference "C30") (unit 1) (value "1 µF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/bc7b9d52-219c-453a-9752-d4491f369786/b79cb8fb-7218-4de9-b032-84fed9b55b93"
-      (reference "C31") (unit 1) (value "C_CC0805JPX7R9BB104") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C31") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/b6fcfd47-bfeb-48f5-9fe8-127c512696fc"
-      (reference "C32") (unit 1) (value "47pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C32") (unit 1) (value "47pF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/832e286a-ab42-4104-b382-92be99e9184b"
-      (reference "C33") (unit 1) (value "47pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C33") (unit 1) (value "47pF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/62d8a16f-84be-4d00-b0d3-bf0c8f1cb417"
-      (reference "C34") (unit 1) (value "C_CL10B104KB8NNNL") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+      (reference "C34") (unit 1) (value " 0.1µF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/bc7b9d52-219c-453a-9752-d4491f369786/dd7cd2bb-a4fd-4f21-a8ee-33033f1454f2"
-      (reference "C35") (unit 1) (value "C_GRM21BR71A106KA73K") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+      (reference "C35") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/bc7b9d52-219c-453a-9752-d4491f369786/270f69f2-49b3-4534-ab6f-34baf88c7fa9"
-      (reference "C36") (unit 1) (value "C_CL10B104KB8NNNL") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+      (reference "C36") (unit 1) (value " 0.1µF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/f07768b3-1830-4c7b-9823-18c0ef9d6435"
       (reference "Cart1") (unit 1) (value "MSX-cartridge_dummy") (footprint "trh9000:MSX-cart-dummy")
     )
-    (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/0681da49-9b0d-486b-b36c-52da4df79a7a"
-      (reference "J1") (unit 1) (value "RGB") (footprint "LRJ:DSUB-Amphenol_L77HDE15SD1CH4RHNVGA")
+    (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/6786a7e3-7a9e-4e40-b8fc-0f9669f961bb"
+      (reference "J1") (unit 1) (value "RGB") (footprint "Connector_Dsub:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/33aae21a-5c53-4635-90a7-bb0a0ace6050"
       (reference "J2") (unit 1) (value "Console5_SCART") (footprint "LRJ:SCART-21_Female_Horizontal_P1.905x2.54mm_EdgePinOffset10.7mm")
@@ -3049,7 +3034,7 @@
       (reference "L2") (unit 1) (value "4.7uH") (footprint "Inductor_SMD:L_1206_3216Metric")
     )
     (path "/bc7b9d52-219c-453a-9752-d4491f369786/46d8f596-7b19-4de1-a83f-45df6b2c9d46"
-      (reference "L3") (unit 1) (value "L_MLZ2012M4R7HT000") (footprint "Inductor_SMD:L_0805_2012Metric")
+      (reference "L3") (unit 1) (value "4.7µH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/8cf7f284-ee21-4396-bd4b-08ed6b598f66"
       (reference "Q1") (unit 1) (value "BC817") (footprint "Package_TO_SOT_SMD:SOT-23")
@@ -3072,17 +3057,11 @@
     (path "/d5c7e94e-ee8c-4fa2-b6f9-333fadc34caa/a28ec14a-51f4-4284-bbf7-4d92023fb9d7"
       (reference "R6") (unit 1) (value "4K7") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/e862e5ff-d6d8-47cb-bf67-af9154f91e00"
-      (reference "R7") (unit 1) (value "R_ERJ-3GEYJ105V") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/bbaafd10-2e61-4d37-80f8-27fc5a2b4449"
-      (reference "R8") (unit 1) (value "2K2") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/536c46bd-a285-49cc-b6fe-606a06493029"
-      (reference "R9") (unit 1) (value "75") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R9") (unit 1) (value "75") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/67c8bdcb-a3b9-4ea0-9c47-56ee041b98ca"
-      (reference "R10") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R10") (unit 1) (value "100") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/7675bc3f-764b-4fe7-a0a6-72e35a8e6b25"
       (reference "R12") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0805_2012Metric")
@@ -3103,13 +3082,13 @@
       (reference "R19") (unit 1) (value "75R") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/e8e689ca-116c-4cf1-a1d4-d609673c7449"
-      (reference "R24") (unit 1) (value "R_RC0603FR-0710KL") (footprint "LRJ:R_0603_1608Metric_roundcourt")
+      (reference "R24") (unit 1) (value "10k") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/c155c1b1-42d4-407f-a82d-cfc8a855690b"
-      (reference "R25") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R25") (unit 1) (value "100") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/28961d54-1559-4fce-9adc-3f09b324dc3f"
-      (reference "R26") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R26") (unit 1) (value "100") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/78f788dc-8d75-416f-b933-1b7f8ab0ceb2"
       (reference "R27") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -3154,13 +3133,10 @@
       (reference "U3") (unit 2) (value "KM428C256") (footprint "trh9000:SOJ-40_400mil")
     )
     (path "/f2de766b-6e04-4297-9ac6-8ed19da3519b"
-      (reference "U4") (unit 1) (value "74VHC138") (footprint "Package_SO:SO-16_3.9x9.9mm_P1.27mm")
+      (reference "U4") (unit 1) (value "74HC138") (footprint "Package_SO:SO-16_3.9x9.9mm_P1.27mm")
     )
     (path "/bc7b9d52-219c-453a-9752-d4491f369786/28de4242-6dd2-4040-b59a-33f214447b78"
-      (reference "U4") (unit 2) (value "74VHC138") (footprint "Package_SO:SO-16_3.9x9.9mm_P1.27mm")
-    )
-    (path "/2c31a37b-5a2e-4dde-9eb0-70323652ba66"
-      (reference "U5") (unit 1) (value "T.I_SN74AHCT32D") (footprint "trh9000:Texas_R-PDSO-G14_3.6x4.4mm")
+      (reference "U4") (unit 2) (value "74HC138") (footprint "Package_SO:SO-16_3.9x9.9mm_P1.27mm")
     )
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/f8fd4bdf-b2cd-4ec2-bbec-288c0f98f023"
       (reference "U6") (unit 1) (value "LMH1980") (footprint "Package_SO:VSSOP-10_3x3mm_P0.5mm")
@@ -3168,11 +3144,14 @@
     (path "/bc7b9d52-219c-453a-9752-d4491f369786/e30d17e9-cb43-4e04-9430-3b8508b76b64"
       (reference "U6") (unit 2) (value "LMH1980") (footprint "Package_SO:VSSOP-10_3x3mm_P0.5mm")
     )
+    (path "/2c31a37b-5a2e-4dde-9eb0-70323652ba66"
+      (reference "U7") (unit 1) (value "74HC32") (footprint "Package_SO:SO-14_3.9x8.65mm_P1.27mm")
+    )
     (path "/bc7b9d52-219c-453a-9752-d4491f369786/eb655c6b-37db-46b1-9584-42633f4fe9c3"
-      (reference "U7") (unit 2) (value "T.I_SN74AHCT32D") (footprint "trh9000:Texas_R-PDSO-G14_3.6x4.4mm")
+      (reference "U7") (unit 2) (value "74HC32") (footprint "Package_SO:SO-14_3.9x8.65mm_P1.27mm")
     )
     (path "/d5c7e94e-ee8c-4fa2-b6f9-333fadc34caa/8a4185ef-ebab-4be1-9b5b-f382187c169e"
-      (reference "X1") (unit 1) (value "Crystek_CE3291") (footprint "Oscillator:Oscillator_SMD_Abracon_ASV-4Pin_7.0x5.1mm")
+      (reference "X1") (unit 1) (value "14.31818MHz ") (footprint "Oscillator:Oscillator_DIP-14")
     )
     (path "/d5c7e94e-ee8c-4fa2-b6f9-333fadc34caa/6f712bc1-4eb0-439a-a5fd-bb1c6396a84d"
       (reference "Y1") (unit 1) (value "21.47727Mhz") (footprint "Crystal:Crystal_HC49-U_Vertical")
