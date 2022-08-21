@@ -1,3 +1,4 @@
+![The Retro Hacker](https://raw.githubusercontent.com/cristianoag/trh9000/main/Images/TRH_Logo.png)
 # TRH9000
 The Yamaha V9990 based open-source video card for the MSX
 
@@ -45,4 +46,4 @@ This work is licensed under the CERN OHL-S v2. You may redistribute and modify t
 terms of the CERN-OHL-S v2.
 
 ![Open Hardware](https://raw.githubusercontent.com/cristianoag/trh9000/main/Images/1024px-Open-source-hardware-logo.svg.png)
-![The Retro Hacker](https://raw.githubusercontent.com/cristianoag/trh9000/main/Images/TRH_Logo.png)
+
