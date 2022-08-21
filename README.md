@@ -28,7 +28,6 @@ There are a few folks activelly helping with the project and I would like to cal
 * Luciano Sturaro
 * Thiago Valença
 
-
 ## Development Log 
 
 * 8/10/2022 - Routing day 1. Decided to move from TSOP-II-40 to SOJ-40 as the pins in the first encapsulation are more difficult to connect/route to the V9990. Using 0.21 tracks to optimize routing. Will provide the RGB connector (standard) and a pin header with the SVGA signal. Updating the forums and rest of stakeholders. First image status uploaded. 
@@ -41,8 +40,7 @@ There are a few folks activelly helping with the project and I would like to cal
 
 ## License 
 
-This work is licensed under the CERN OHL-S v2. You may redistribute and modify this documentation under the 
-terms of the CERN-OHL-S v2.
+This work is licensed under the CERN OHL-S v2. You may redistribute and modify this project and its documentation under the terms of the CERN-OHL-S v2.
 
 ![Open Hardware](https://raw.githubusercontent.com/cristianoag/trh9000/main/Images/1024px-Open-source-hardware-logo.svg.png)
 
