@@ -1864,7 +1864,6 @@
     )
   )
 
-
   (junction (at 270.51 118.11) (diameter 0) (color 0 0 0 0)
     (uuid 0703724d-4bf6-4427-92f8-9eced74b34a6)
   )
@@ -1929,12 +1928,12 @@
   (no_connect (at 156.21 157.48) (uuid 19332e8c-0b46-4584-8b84-4b28c1cda694))
   (no_connect (at 278.13 96.52) (uuid 37a05096-835a-4b7c-8276-47e742bf5137))
   (no_connect (at 251.46 168.91) (uuid 893a0a7c-be0f-43c5-83c9-37255b1d5087))
-  (no_connect (at 251.46 148.59) (uuid 893a0a7c-be0f-43c5-83c9-37255b1d5087))
-  (no_connect (at 251.46 153.67) (uuid 893a0a7c-be0f-43c5-83c9-37255b1d5087))
+  (no_connect (at 251.46 148.59) (uuid 893a0a7c-be0f-43c5-83c9-37255b1d5088))
+  (no_connect (at 251.46 153.67) (uuid 893a0a7c-be0f-43c5-83c9-37255b1d5089))
   (no_connect (at 278.13 55.88) (uuid 8a3c2eb8-39ab-41dc-ac33-59978b43b3be))
   (no_connect (at 278.13 73.66) (uuid a1aa22b7-ebee-42fc-b8c1-c1ebd5699b68))
   (no_connect (at 251.46 138.43) (uuid b4e39ead-8f13-4e02-a0c1-98641e955f5d))
-  (no_connect (at 251.46 151.13) (uuid b4e39ead-8f13-4e02-a0c1-98641e955f5d))
+  (no_connect (at 251.46 151.13) (uuid b4e39ead-8f13-4e02-a0c1-98641e955f5e))
   (no_connect (at 156.21 149.86) (uuid ccaedb09-6079-4a31-8822-49b01d366844))
 
   (wire (pts (xy 52.07 52.07) (xy 52.07 59.69))
@@ -2729,7 +2728,7 @@
   )
 
   (symbol (lib_id "LRJ-parts:Console5_SCART") (at 265.43 81.28 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board no)
     (uuid 33aae21a-5c53-4635-90a7-bb0a0ace6050)
     (property "Reference" "J2" (id 0) (at 256.54 46.99 0))
     (property "Value" "Console5_SCART" (id 1) (at 246.38 111.76 0))
@@ -2800,7 +2799,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 240.03 81.28 270) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board no)
     (uuid 4d415f2d-fe32-4578-a45a-fbbef9118437)
     (property "Reference" "R29" (id 0) (at 234.95 80.01 90))
     (property "Value" "1k" (id 1) (at 240.03 81.28 90))
@@ -2970,7 +2969,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 234.95 40.64 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board no)
     (uuid 78f788dc-8d75-416f-b933-1b7f8ab0ceb2)
     (property "Reference" "R27" (id 0) (at 232.918 40.64 90))
     (property "Value" "100" (id 1) (at 234.95 40.64 90))
@@ -3088,7 +3087,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 234.95 50.8 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board no)
     (uuid 9d7162f1-9243-434b-ad02-2fd3b94046bb)
     (property "Reference" "R28" (id 0) (at 232.918 50.8 90))
     (property "Value" "100" (id 1) (at 234.95 50.8 90))

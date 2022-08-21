@@ -2148,7 +2148,7 @@
   )
 
   (symbol (lib_id "LRJ-parts:C_CL21B105KBFNNNF") (at 66.04 100.33 90) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board no)
     (uuid 26fc02a4-b592-47fe-99c2-e2139447cac1)
     (property "Reference" "C25" (id 0) (at 62.23 99.06 90)
       (effects (font (size 1.143 1.143)))
@@ -2319,7 +2319,7 @@
   )
 
   (symbol (lib_id "LRJ-parts:C_CC0805JPX7R9BB104") (at 72.39 116.84 90) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board no)
     (uuid 97859f98-baf0-41d5-9736-00bb2846cb8e)
     (property "Reference" "C12" (id 0) (at 76.2 115.57 90)
       (effects (font (size 1.143 1.143)) (justify left))
@@ -2363,7 +2363,7 @@
   )
 
   (symbol (lib_id "LRJ-parts:C_CL21B105KBFNNNF") (at 73.66 111.76 90) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board no)
     (uuid a0bf6c8e-f4a0-46e5-9fe6-8ec8a47d7fd1)
     (property "Reference" "C26" (id 0) (at 74.93 110.49 90)
       (effects (font (size 1.143 1.143)))
@@ -2408,7 +2408,7 @@
   )
 
   (symbol (lib_id "LRJ-parts:C_CC0805JPX7R9BB104") (at 64.77 105.41 90) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board no)
     (uuid c9e6edbe-489e-42d8-b6f2-ef4bb897fc43)
     (property "Reference" "C11" (id 0) (at 63.5 104.14 90)
       (effects (font (size 1.143 1.143)) (justify left))
@@ -2892,6 +2892,9 @@
     (path "/d9ed34ef-ff83-4a70-a9f7-db0f42d1292e/9363cb1c-3e18-4499-b81c-64edc0d08951"
       (reference "#PWR0120") (unit 1) (value "GND") (footprint "")
     )
+    (path "/d5c7e94e-ee8c-4fa2-b6f9-333fadc34caa/257766af-5a69-4b0b-9011-86f530c64d0b"
+      (reference "#PWR0121") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/bc7b9d52-219c-453a-9752-d4491f369786/17275835-3b83-40ba-9db4-48a2a603bad3"
       (reference "#PWR0122") (unit 1) (value "+5V") (footprint "")
     )
@@ -3151,7 +3154,7 @@
       (reference "U7") (unit 2) (value "74HC32") (footprint "Package_SO:SO-14_3.9x8.65mm_P1.27mm")
     )
     (path "/d5c7e94e-ee8c-4fa2-b6f9-333fadc34caa/8a4185ef-ebab-4be1-9b5b-f382187c169e"
-      (reference "X1") (unit 1) (value "14.31818MHz ") (footprint "Oscillator:Oscillator_DIP-14")
+      (reference "X1") (unit 1) (value "14.31818MHz ") (footprint "Oscillator:Oscillator_DIP-8")
     )
     (path "/d5c7e94e-ee8c-4fa2-b6f9-333fadc34caa/6f712bc1-4eb0-439a-a5fd-bb1c6396a84d"
       (reference "Y1") (unit 1) (value "21.47727Mhz") (footprint "Crystal:Crystal_HC49-U_Vertical")
