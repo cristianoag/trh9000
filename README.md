@@ -44,5 +44,5 @@ There are a few folks activelly helping with the project and I would like to cal
 This work is licensed under the CERN OHL-S v2. You may redistribute and modify this documentation under the 
 terms of the CERN-OHL-S v2.
 
-![Open Hardware](images/1024px-Open-source-hardware-logo.svg.png)
-![The Retro Hacker](images/TRH_Logo.png)
+![Open Hardware](https://raw.githubusercontent.com/cristianoag/trh9000/main/Images/1024px-Open-source-hardware-logo.svg.png)
+![The Retro Hacker](https://raw.githubusercontent.com/cristianoag/trh9000/main/Images/TRH_Logo.png)
