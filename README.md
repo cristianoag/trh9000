@@ -37,6 +37,7 @@ There are a few folks activelly helping with the project and I would like to cal
 * 8/15/2022 - Merged changes proposed by Doomn00b. 
 * 8/20/2022 - Routing. Almost finished routing for the VDP. Moved back the footprint for the 14mhz oscillator to THT as it is easier to find outside US/Europe and I have a bunch laying around here. Organized all components into the PCB. Removed the holed in the cartridge so I can better measure them in the standard MSX cartridge. Changed the RGB connector footprint to a shorter version so we can fit it in the standard size cartridge. Fixed multiple footprints to 0805 as we will be standardizing in that size. 
 * 8/21/2022 - Routing for rev 1 is done. Pending prototyping and possible fixes to the main circuit/pcb before first test batch. Waiting for review of others.
+* 9/10/2022 - Publishing the files for the prototype test board being used during development. Fixing the symbols for the KM428C256 memory chip on the schema. The initial configuration had a few pins wrongly assigned as it was based on the ZIP package instead of the SOJ package we are planning to use. Included additional datasheets being analyzed and updated README files to describe files being uploaded to the repo.
 
 ## License 
 
