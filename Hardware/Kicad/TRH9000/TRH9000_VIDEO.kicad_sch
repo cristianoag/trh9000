@@ -7,7 +7,7 @@
   (title_block
     (title "TRH9000")
     (date "2022-08-04")
-    (rev "0")
+    (rev "1")
     (company "The Retro Hacker")
     (comment 2 "Shared under CERN-OHL-S license")
     (comment 3 "TRH9000 - Open Source MSX Graphics Card based on the Yamaha V9990")
@@ -3446,7 +3446,5 @@
     (pin "7" (uuid f93ba499-5575-477e-91a3-53cce59c0004))
     (pin "8" (uuid 52bbe6a3-f4f4-44d5-b564-23c55912f5ea))
     (pin "9" (uuid 6e701d84-f743-4c33-b3a8-667be398bbd5))
-    (pin "2" (uuid 012f51a9-60d7-4d64-8672-9b730dbfc947))
-    (pin "3" (uuid 6e2e3e86-2ccf-4431-8216-87d30fc68efe))
   )
 )

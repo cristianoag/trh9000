@@ -142,9 +142,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "lib_symbol_issues|1181100|1282700|f2de766b-6e04-4297-9ac6-8ed19da3519b|00000000-0000-0000-0000-000000000000"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -640,7 +638,7 @@
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.25,
-      "pin_symbol_size": 0.0,
+      "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.08
     },
     "legacy_lib_dir": "",
