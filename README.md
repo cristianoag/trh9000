@@ -40,7 +40,7 @@ There are a few folks activelly helping with the project and I would like to cal
 * 8/21/2022 - Routing for rev 1 is done. Pending prototyping and possible fixes to the main circuit/pcb before first test batch. Waiting for review of others.
 * 9/10/2022 - Publishing the files for the prototype test board being used during development. Fixing the symbols for the KM428C256 memory chip on the schema. The initial configuration had a few pins wrongly assigned as it was based on the ZIP package instead of the SOJ package we are planning to use. Included additional datasheets being analyzed and updated README files to describe files being uploaded to the repo.
 * 9/21/2022 - Upload of a prototype image to the images repository. BUSDIR implementation/fix. Initial analysis to implement superimpose circuit and additional connector to collect the MSX video signal. Adjusts on the main circuit after initial tests with the prototype. PDF printed version update of the latest version of the circuit for contributors review. 
-
+* 10/2/2022 - Multiple fixes after testing with the prototype and the logic analyzer. Prototype managed to generate video for the first time but quality is not good (expected for a prototype with floating wires). Fixes to the VDP selection logic. Adjusts to the power diagrams to be more clear on pins being used for GND and the multiple VCC lines. Extension of the board to host the two connectors in preparation for the superimpose circuit. First test batch ordered. Uploaded datasheets for the RGB multiplexer (LT1675) and voltage converter (ICL7660) to generate -5V for the mux. 
 ## License 
 
 This work is licensed under the CERN OHL-S v2. You may redistribute and modify this project and its documentation under the terms of the CERN-OHL-S v2.
