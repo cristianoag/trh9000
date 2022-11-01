@@ -432,7 +432,6 @@
           "/D5",
           "/D6",
           "/D7",
-          "/SCIN",
           "/SW1",
           "/SW2",
           "/SYS_CLK",
@@ -574,7 +573,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "TRH9000.dsn",
       "step": "",
       "vrml": ""
     },
