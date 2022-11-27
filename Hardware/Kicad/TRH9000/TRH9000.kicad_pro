@@ -528,7 +528,6 @@
           "/~{INT}",
           "/~{IORQ}",
           "/~{M1}",
-          "/~{MERQ}",
           "/~{RD}",
           "/~{RESET}",
           "/~{RFSH}",
@@ -573,7 +572,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "TRH9000.dsn",
+      "specctra_dsn": "TRH9000_2.dsn",
       "step": "",
       "vrml": ""
     },
