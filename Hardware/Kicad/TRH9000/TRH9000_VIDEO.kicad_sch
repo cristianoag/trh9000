@@ -1912,7 +1912,7 @@
     (in_bom yes) (on_board yes)
     (uuid c9fe8a3b-a9ed-43d3-988f-9098bbf6e193)
     (property "Reference" "C5" (id 0) (at 118.364 179.07 90))
-    (property "Value" "220uF 6.3V" (id 1) (at 118.364 181.356 90))
+    (property "Value" "220uF" (id 1) (at 118.364 181.356 90))
     (property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-15_AVX-H" (id 2) (at 122.174 184.4548 0)
       (effects (font (size 1.27 1.27)) hide)
     )
