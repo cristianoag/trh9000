@@ -33,22 +33,16 @@ There are a few folks activelly helping with the project and I would like to cal
 * lintweaker
 * Luciano Sturaro
 * sdsnatcher73
+* sdsnatcher
 * Thiago Valença
 
-## Development Log 
+## Technical Information
 
-* 8/10/2022 - Routing day 1. Decided to move from TSOP-II-40 to SOJ-40 as the pins in the first encapsulation are more difficult to connect/route to the V9990. Using 0.21 tracks to optimize routing. Will provide the RGB connector (standard) and a pin header with the SVGA signal. Updating the forums and rest of stakeholders. First image status uploaded. 
-* 8/8/2022 - Initial component placement on the PCB. Still lot of work to do in order to improve routing. 
-* 8/4/2022 - Reviewed the footprints in preparation to start creating the first PCB draft. Had to create a custom TSOP-2-40 footprint as I could't find any on the net. Using 0805 for the resistors and ceramic capacitors. THT electrolytics. Reviewing the list of pending questions to get everything ready for the PCB creation. (REV0)
-* 8/2/2022 - I just finished the first (rev0) draft of the schematics and I'll run it through more experienced MSX hardware developers. Please, if you feel you have something to add, clone the repo and contribute. You can also reach out if you want to suggest something. You can see a PDF with the first draft [here](Docs/TRH9000_Schema_Revision_0.pdf). Kicad files are stored on the [hardware/kicad](hardware/Kicad/) folder. (REV0)
-* 8/15/2022 - Merged changes proposed by Doomn00b. 
-* 8/20/2022 - Routing. Almost finished routing for the VDP. Moved back the footprint for the 14mhz oscillator to THT as it is easier to find outside US/Europe and I have a bunch laying around here. Organized all components into the PCB. Removed the holed in the cartridge so I can better measure them in the standard MSX cartridge. Changed the RGB connector footprint to a shorter version so we can fit it in the standard size cartridge. Fixed multiple footprints to 0805 as we will be standardizing in that size. 
-* 8/21/2022 - Routing for rev 1 is done. Pending prototyping and possible fixes to the main circuit/pcb before first test batch. Waiting for review of others.
-* 9/10/2022 - Publishing the files for the prototype test board being used during development. Fixing the symbols for the KM428C256 memory chip on the schema. The initial configuration had a few pins wrongly assigned as it was based on the ZIP package instead of the SOJ package we are planning to use. Included additional datasheets being analyzed and updated README files to describe files being uploaded to the repo.
-* 9/21/2022 - Upload of a prototype image to the images repository. BUSDIR implementation/fix. Initial analysis to implement superimpose circuit and additional connector to collect the MSX video signal. Adjusts on the main circuit after initial tests with the prototype. PDF printed version update of the latest version of the circuit for contributors review. 
-* 10/2/2022 - Multiple fixes after testing with the prototype and the logic analyzer. Prototype managed to generate video for the first time but quality is not good (expected for a prototype with floating wires). Fixes to the VDP selection logic. Adjusts to the power diagrams to be more clear on pins being used for GND and the multiple VCC lines. Extension of the board to host the two connectors in preparation for the superimpose circuit. First test batch ordered. Uploaded datasheets for the RGB multiplexer (LT1675) and voltage converter (ICL7660) to generate -5V for the mux. 
-* 10/31/2022 - Fixes after running the first test batch. Moving the 138 and 32 ICs to different positions to avoid issues with the cartridge box. Equalizing footprints for capacitors. Changing C23 to electrolytic. When using SOJ40 sockets the plastic was passing the edge of the PCB. Adjusts on the selection logic. Change on the memory chip symbol as the datasheet seems to be incorrect on PIN13. Following tips from contributors and fixing pins 12 and 13 on the memory ICs. Rerouting after changes and focusing on a simple version without superimposing. After testing will create another branch to support a version with superimpose. Generating interactive BOM.  
-* 11/27/2022 - Documented multiple findings, test results, changes to the PCB and the split between TRH9000 and TRH9000S. Publishing the v1.0 release of the TRH9000 already function and with reasonable video quality. TRH9000S is still being tested but already working with superimpose in the Omega MSX. Changes to the edge cuts to fit both boards into the standard MSX cartridge box. Replacement of the standard capacitors by tantalum. Changes to improve video quality.   
+According to the not exhaustive list of IO ports documented [here](https://www.msx.org/wiki/I/O_Ports_List). The IO ports used the by an GFX9000 compatible cartridge must be 60h~6Fh*. The 74HCT138 IC on the board performs the selection of those IO ports and with the aid of the 74HC32 performs the activation of the appropriate signals on the V9990 chip.
+
+...To be updated!...
+
+ 
 ## License 
 
 This work is licensed under the CERN OHL-S v2. You may redistribute and modify this project and its documentation under the terms of the CERN-OHL-S v2.

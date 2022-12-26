@@ -1,4 +1,4 @@
-22722965814383883
+22724635285234457
 Aesthetics
 BREADBOARD_SPACING
 BREADBOARD SPACING
@@ -3331,6 +3331,13 @@ capacitor handsolder
 0
 2
 2
+CRISAG
+DIN8
+
+
+0
+10
+8
 CRISAG
 DIP-32_W15.24mm_Socket
 32-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils), Socket
