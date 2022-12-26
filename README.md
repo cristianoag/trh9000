@@ -38,7 +38,29 @@ There are a few folks activelly helping with the project and I would like to cal
 
 ## Technical Information
 
-According to the not exhaustive list of IO ports documented [here](https://www.msx.org/wiki/I/O_Ports_List). The IO ports used the by an GFX9000 compatible cartridge must be 60h~6Fh*. The 74HCT138 IC on the board performs the selection of those IO ports and with the aid of the 74HC32 performs the activation of the appropriate signals on the V9990 chip.
+MSX cartridges typically contain a number of electronic components that allow them to function as expansion devices for an MSX computer. These components typically include the following:
+
+* ROM chips: Most MSX cartridges contain ROM (read-only memory) chips that store the software or firmware that runs on the cartridge. These chips are typically non-volatile, meaning that they retain their contents even when the cartridge is not powered.
+
+* RAM chips: Some MSX cartridges may also contain RAM (random access memory) chips that can be used to store data or temporary information. These chips are typically volatile, meaning that they lose their contents when the cartridge is powered off.
+
+* Connectors: MSX cartridges contain connectors that allow them to be plugged into the cartridge slot of an MSX computer. These connectors may be located on the top, bottom, or sides of the cartridge, depending on the design of the cartridge.
+
+* Control logic: MSX cartridges may contain control logic circuits that are used to manage the operation of the cartridge and communicate with the MSX computer. These circuits may include microcontrollers, programmable logic devices, or other types of control logic.
+
+* Other components: Depending on the specific functions of the cartridge, it may also contain other components such as voltage regulators, buffers, latches, or drivers.
+
+Overall, the electronic components of an MSX cartridge work together to allow the cartridge to function as an expansion device for the MSX computer, adding new hardware or software capabilities to the system.
+
+For the TRH9000, the control logic is implemented by two ICs. According to the not exhaustive list of IO ports documented [here](https://www.msx.org/wiki/I/O_Ports_List). The IO ports used the by an GFX9000 compatible cartridge must be 60h~6Fh*. The 74HCT138 IC on the board performs the selection of those IO ports and with the aid of the 74HC32 performs the activation of the appropriate signals on the V9990 chip.
+
+RAM chips
+
+Connectors
+
+*RGB/VGA
+*SVIDEO
+*TRH9000S
 
 ...To be updated!...
 
