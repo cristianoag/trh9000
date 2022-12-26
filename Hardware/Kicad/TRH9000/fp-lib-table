@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name "trh9000")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Footprints/trh9000.pretty")(options "")(descr ""))
-  (lib (name "Ultra-MSX")(type "KiCad")(uri "E:/Documents/Teknikprojekt/Hardware/MSX/MSX_Ultra/Hardware/Libraries/Ultra-MSX.pretty")(options "")(descr ""))
-)

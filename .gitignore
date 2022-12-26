@@ -22,8 +22,9 @@ _autosave-*
 
 # Exported BOM files
 *.xml
-*.csv
+#*.csv
 
 #Back-up folder
-Hardware/Kicad/TRH9000/TRH9000-backups/*
+Hardware/Kicad/TRH9000.lmh1980/TRH9000-backups/*
+Hardware/Kicad/TRH9000.cxa2075/TRH9000-backups/*
 Hardware/Kicad/TRH9000S/TRH9000-backups/*
