@@ -1,5 +1,6 @@
 # TRH9000 and TRH9000S
 Yamaha V9990 based open-source video cards for the MSX
+![TRH9000](Labels/TRH9000_Label_72x52_Patolas.png)
 
 ## Introduction
 
