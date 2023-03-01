@@ -13,7 +13,7 @@ The device is based on the Yamaha V9990 video controller (VDP). The chip was bas
 
 ## The TRH9000 and the TRH9000S
 
-TRH9000 is the name of a brand new open-source implementation of the GFX9000. It is a community effort to create everything required to build MSX cartridges capable to run V9990 software.
+TRH9000 is a recently developed open-source implementation of the GFX9000, representing a community-driven effort to document everything necessary to build MSX cartridges that can run V9990 software.
 
 ![TRH9000](Images/TRH9000.jpg)
 
@@ -38,33 +38,23 @@ There are a few folks activelly helping with the project and I would like to cal
 
 ## Technical Information
 
-MSX cartridges typically contain a number of electronic components that allow them to function as expansion devices for an MSX computer. These components typically include the following:
+The TRH9000 is a graphics expansion cartridge designed for MSX computers that was developed by a community of MSX enthusiasts as an open-source implementation of the GFX9000. 
 
-* ROM chips: Most MSX cartridges contain ROM (read-only memory) chips that store the software or firmware that runs on the cartridge. These chips are typically non-volatile, meaning that they retain their contents even when the cartridge is not powered.
-
-* RAM chips: Some MSX cartridges may also contain RAM (random access memory) chips that can be used to store data or temporary information. These chips are typically volatile, meaning that they lose their contents when the cartridge is powered off.
-
-* Connectors: MSX cartridges contain connectors that allow them to be plugged into the cartridge slot of an MSX computer. These connectors may be located on the top, bottom, or sides of the cartridge, depending on the design of the cartridge.
-
-* Control logic: MSX cartridges may contain control logic circuits that are used to manage the operation of the cartridge and communicate with the MSX computer. These circuits may include microcontrollers, programmable logic devices, or other types of control logic.
-
-* Other components: Depending on the specific functions of the cartridge, it may also contain other components such as voltage regulators, buffers, latches, or drivers.
-
-Overall, the electronic components of an MSX cartridge work together to allow the cartridge to function as an expansion device for the MSX computer, adding new hardware or software capabilities to the system.
-
+### Selection Logic
 For the TRH9000, the control logic is implemented by two ICs. According to the not exhaustive list of IO ports documented [here](https://www.msx.org/wiki/I/O_Ports_List). The IO ports used the by an GFX9000 compatible cartridge must be 60h~6Fh*. The 74HCT138 IC on the board performs the selection of those IO ports and with the aid of the 74HC32 performs the activation of the appropriate signals on the V9990 chip.
 
-RAM chips
+### RAM chips
 
-Connectors
+The KM428C256 RAM chip is the primary memory module used in the TRH9000 for MSX. It is a CMOS 256K x 8 bit dual-port dynamic random-access memory (DRAM) chip that serves as the primary memory module in the TRH9000 for MSX. We use two memory chips on the cartridge, wired to the Yamaha V9990 VDP.
 
-*RGB/VGA
-*SVIDEO
-*TRH9000S
+### Connectors
 
-...To be updated!...
+The TRH9000 features two types of video output connectors: a DB15 RGB/VGA connector and a pin header that carries the SVIDEO signal. The DB15 connector is a standard video connector that supports VGA, and RGB, making it a versatile choice for connecting to various types of displays. The SVIDEO signal, on the other hand, is a video signal that carries the chrominance and luminance components of the video separately, resulting in a higher quality image than composite video. 
 
- 
+The SVIDEO signal is carried via the pin header, which is also included in the TRH9000 cartridge. This provides users with the flexibility to choose the type of video output connector that best suits their display device. 
+
+Additionally, the TRH9000S version of the cartridge features two connectors, including a DIN8 270 connector that allows for input from the MSX computer and the DB15 RGB/VGA connector for video output. 
+
 ## License 
 
 This work is licensed under the CERN OHL-S v2. You may redistribute and modify this project and its documentation under the terms of the CERN-OHL-S v2.
