@@ -57,6 +57,10 @@ The SVIDEO signal is carried via the pin header, which is also included in the T
 
 Additionally, the TRH9000S version of the cartridge features two connectors, including a DIN8 270 connector that allows for input from the MSX computer and the DB15 RGB/VGA connector for video output. 
 
+## Bill of Materials
+
+[TRH9000](https://htmlpreview.github.io/?https://github.com/cristianoag/trh9000/blob/main/Hardware/Kicad/TRH9000.cxa2075/bom/ibom.html)
+
 ## License 
 
 This work is licensed under the CERN OHL-S v2. You may redistribute and modify this project and its documentation under the terms of the CERN-OHL-S v2.
