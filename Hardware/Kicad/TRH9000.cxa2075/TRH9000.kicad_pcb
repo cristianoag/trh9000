@@ -6731,9 +6731,6 @@
   (gr_text "The Yamaha V9990 \nopen-source video card for the MSX\nRev 1.2" (at 146.9 116.86) (layer "F.SilkS") (tstamp bfd6578d-93ab-4482-8f22-767f948f6fb0)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "+" (at 159.96 89.61) (layer "B.Mask") (tstamp 70fb354f-7bbc-40a6-8bcd-55844755989c)
-    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
-  )
 
   (segment (start 171.615 88.925) (end 172.0648 88.925) (width 0.3) (layer "F.Cu") (net 1) (tstamp 098c7d3d-9d5c-41a5-9899-88e094994a5e))
   (segment (start 171.615 99.1537) (end 172.1535 98.6152) (width 0.3) (layer "F.Cu") (net 1) (tstamp 0d758f8b-e398-420e-9566-254948cbfe0b))
