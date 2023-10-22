@@ -122,6 +122,7 @@ There are a few folks activelly helping with the project and I would like to cal
 * Darlei Duarte
 * lintweaker
 * Luciano Sturaro
+* MetalGear2
 * sdsnatcher73
 * sdsnatcher
 * Thiago Valença
