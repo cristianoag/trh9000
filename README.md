@@ -72,7 +72,9 @@ If you decide to use the Retrotink you will need a VGA to SCART cable. That is e
 |5|--> |21 |GND
 |13|-->|20| Sync
 
+By request of the community a jumper was included on the latest PCB version to provide optionally 5V on the pin 9 of the VGA connector. This is useful for those who want to use build a SCART cable that depending on the monitor may require 5V in some pins. 
 
+The jumper is located on the back of the PCB and is labeled as "JP1". The default position is open, so if you need to use it, you will need to close it with a solder blob.
 
 ## Bill of Materials
 
