@@ -164,6 +164,7 @@ There are a few folks activelly helping with the project and I would like to cal
 * sdsnatcher73
 * sdsnatcher
 * Thiago Valença
+* Wagner Tavares
 
 
 ## License 
