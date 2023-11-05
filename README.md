@@ -45,9 +45,9 @@ The SVIDEO signal is carried via the pin header, which is also included in the T
 
 Additionally, the TRH9000S version of the cartridge features two connectors, including a DIN8 270 connector that allows for input from the MSX computer and the DB15 RGB/VGA connector for video output. 
 
-
 ### Video Output
 
+#### RGB 
 The TRH9000 cartridge produces RGB signal with a horizontal frequency of 15KHz, which was the standard at the time of the V9990 chip's release. If you plan to connect the cartridge directly to your monitor using a VGA cable, it's important to ensure that your monitor supports synchronization at 15KHz.
 
 You can see a list of modern monitors with support to 15KHz available at http://15khz.wikidot.com/
@@ -75,6 +75,44 @@ If you decide to use the Retrotink you will need a VGA to SCART cable. That is e
 By request of the community a jumper was included on the latest PCB version to provide optionally 5V on the pin 9 of the VGA connector. This is useful for those who want to use build a SCART cable that depending on the monitor may require 5V in some pins. 
 
 The jumper is located on the back of the PCB and is labeled as "JP1". The default position is open, so if you need to use it, you will need to close it with a solder blob.
+
+#### S-Video and Composite
+
+The TRH9000 cartridge provides support for both S-Video and Composite video outputs. These video signals are transmitted through a pin header situated on the upper right side of the cartridge PCB.
+
+Please note that only the S-Video signal is accessible on the pin header in v1.3. The Composite signal becomes available starting from the v1.4 version.
+
+To utilize these signals, you'll need to construct a cable that links the pin header to the S-Video or Composite input of your monitor.
+
+The pinout of the pin header is as follows:
+
+![SVideo and Composite pinout](Images/TRH9000_Pinout.jpg)
+
+As a reference the following image presents the pinout for S-Video and Composite connectors:
+
+![Alt text](Images/SVIDEO_COMPOSITE.jpg)
+
+Please use the tables shown below to build your cables.
+
+* S-SVIDEO uses COUT, YOUT and GND
+
+|Pin Svideo|TRH9000 Pin Header|Signal|
+|-|-|-|
+|1 - GND|2 - GND|Ground|
+|2 - GND|2 - GND|Ground|
+|3 - Y|3 - YOUT|Luminance|
+|4 - C|1 - COUT|Chrominance|
+
+* Composite uses CVOUT and GND
+
+|Pin Composite|TRH9000 Pin Header|Signal|
+|-|-|-|
+|SIGNAL|1 - CVOUT |Composite Signal|
+|GROUND|2 - GND|Ground|
+
+For optimal cable construction and secure locking during use, I recommend using an XHB2.54 angled connector with a buckle. This item is available for purchase on Ali Express [here](https://s.click.aliexpress.com/e/_DDveDbh).
+
+![Alt text](Images/XHB2.54.jpeg)
 
 ## Bill of Materials
 
