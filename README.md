@@ -86,7 +86,7 @@ To utilize these signals, you'll need to construct a cable that links the pin he
 
 The pinout of the pin header is as follows:
 
-![SVideo and Composite pinout](Images/TRH9000_Pinout.jpg)
+![SVideo and Composite pinout](Images/TRH9000_pinout.jpg)
 
 As a reference the following image presents the pinout for S-Video and Composite connectors:
 
