@@ -121,7 +121,7 @@ For optimal cable construction and secure locking during use, I recommend using 
 |References|Value|Footprint|Qtd|Link|
 |-|-|-|-|-|
 |C1, C6, C7, C8, C17, C19, C20, C22, C24	|0.1uF	|C_0805_2012Metric	|9|[Ali Express](https://s.click.aliexpress.com/e/_DkAAT2J)
-|C9, C11, C12, C13, C14, C15|	220uF	|CP_EIA-3528-15_AVX-H|	6|[Ali Express](https://s.click.aliexpress.com/e/_DCrPttV)
+|C9, C11, C12, C13, C14, C15, C26|	220uF	|CP_EIA-3528-15_AVX-H|	7|[Ali Express](https://s.click.aliexpress.com/e/_DCrPttV)
 |C3, C4	|27pF|	C_0805_2012Metric|	2|[Ali Express](https://s.click.aliexpress.com/e/_DkAAT2J)
 |C5, C10|	47pF	|C_0805_2012Metric|	2|[Ali Express](https://s.click.aliexpress.com/e/_DkAAT2J)
 |C16, C18|	1uF	|C_0805_2012Metric	|2|[Ali Express](https://s.click.aliexpress.com/e/_DkAAT2J)
@@ -129,7 +129,7 @@ For optimal cable construction and secure locking during use, I recommend using 
 |C2|	10uF|	C_0805_2012Metric	|1|[Ali Express](https://s.click.aliexpress.com/e/_DkAAT2J)
 |C21|	47uF|	CP_EIA-3528-15_AVX-H|	1|[Ali Express](https://s.click.aliexpress.com/e/_DCrPttV)
 |R1, R3, R4, R5, R6, R10|	4K7	|R_0805_2012Metric|	6|[Ali Express](https://s.click.aliexpress.com/e/_DEyTmBN)
-|R14, R15, R16, R17, R18|	75R	|R_0805_2012Metric|	5|[Ali Express](https://s.click.aliexpress.com/e/_DEyTmBN)
+|R14, R15, R16, R17, R18, R19|	75R	|R_0805_2012Metric|	6|[Ali Express](https://s.click.aliexpress.com/e/_DEyTmBN)
 |R7, R12|	2K2	|R_0805_2012Metric|	2|[Ali Express](https://s.click.aliexpress.com/e/_DEyTmBN)
 |			R2	|10M	|R_0805_2012Metric|	1|[Ali Express](https://s.click.aliexpress.com/e/_DEyTmBN)
 |			R8	|1K	|R_0805_2012Metric|	1|[Ali Express](https://s.click.aliexpress.com/e/_DEyTmBN)
