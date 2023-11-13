@@ -76,6 +76,10 @@ By request of the community a jumper was included on the latest PCB version to p
 
 The jumper is located on the back of the PCB and is labeled as "JP1". The default position is open, so if you need to use it, you will need to close it with a solder blob.
 
+Here is a diagram of the DH15 connector:
+
+![RGB pinout](Images\2023-11-13_17-56.png)
+
 #### S-Video and Composite
 
 The TRH9000 cartridge provides support for both S-Video and Composite video outputs. These video signals are transmitted through a pin header situated on the upper right side of the cartridge PCB.
