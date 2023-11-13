@@ -118,6 +118,12 @@ For optimal cable construction and secure locking during use, I recommend using 
 
 ![Alt text](Images/XHB2.54.jpeg)
 
+Below you can find some pictures of the TRH9000 cartridge connector and the SVIDEO cable. These images can help you better understand how to connect your cartridge to your monitor and ensure that you have a stable video output.
+
+| XHB2.54 Connector Soldered | XHB2.54 Case Hole | S-Video Cable Connected to TRH9000 |
+| --- | --- | --- |
+| ![SVIDEO1](Images/SVIDEO3.png) | ![SVIDEO2](Images/SVIDEO2.jpg) | ![SVIDEO3](Images/SVIDEO.jpg) |
+
 ## Bill of Materials
 
 [TRH9000 Interactive BOM](https://htmlpreview.github.io/?https://github.com/cristianoag/trh9000/blob/main/Hardware/Kicad/TRH9000.cxa2075/bom/ibom.html)
