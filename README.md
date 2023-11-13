@@ -78,7 +78,7 @@ The jumper is located on the back of the PCB and is labeled as "JP1". The defaul
 
 Here is a diagram of the DH15 connector:
 
-![RGB pinout](Images\2023-11-13_17-56.png)
+![RGB pinout](Images\RGB_PINOUT.png)
 
 #### S-Video and Composite
 
