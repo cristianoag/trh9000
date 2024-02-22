@@ -1,148 +1,218 @@
-35531436929743
-Jumper
-SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm
-SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips
-net tie solder jumper bridged
+51961008468263
+RF_Mini-Circuits
+Mini-Circuits_BK377
+Footprint for Mini-Circuits case BK377 (https://ww2.minicircuits.com/case_style/BK276.pdf)
+Mini-circuits BK377
 0
-2
-2
-Jumper
-SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm
-SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 2 copper strips
-net tie solder jumper bridged
+14
+14
+RF_Mini-Circuits
+Mini-Circuits_BK377_LandPatternPL-005
+Footprint for Mini-Circuits case BK377 (https://ww2.minicircuits.com/case_style/BK276.pdf) according to land-pattern PL-005, including GND vias (https://ww2.minicircuits.com/pcb/98-pl005.pdf)
+Mini-circuits VCXO JTOS PL-005
 0
-2
-2
-Jumper
-SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm
-SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 1 copper strip
-net tie solder jumper bridged
+50
+14
+RF_Mini-Circuits
+Mini-Circuits_CD541_H2.08mm
+https://ww2.minicircuits.com/case_style/CD541.pdf
+RF Transformer
 0
-2
-2
-Jumper
-SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm
-SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip
-net tie solder jumper bridged
+6
+6
+RF_Mini-Circuits
+Mini-Circuits_CD542_H2.84mm
+https://ww2.minicircuits.com/case_style/CD542.pdf
+RF Transformer
 0
-2
-2
-Jumper
-SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm
-SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open
-solder jumper open
+6
+6
+RF_Mini-Circuits
+Mini-Circuits_CD542_LandPatternPL-052
+Footprint for Mini-Circuits case CD542 (https://ww2.minicircuits.com/case_style/CD542.pdf) using land-pattern PL-052, including GND-vias (https://ww2.minicircuits.com/pcb/98-pl052.pdf)
+MiniCircuits PL-052 CD542
 0
-2
-2
-Jumper
-SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm
-SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open
-solder jumper open
+17
+6
+RF_Mini-Circuits
+Mini-Circuits_CD542_LandPatternPL-094
+Footprint for mini circuit case CD542, Land pattern PL-094, pads 5 and 2 connected via insulated copper area below body, vias included (case drawing: https://ww2.minicircuits.com/case_style/CD542.pdf, land pattern drawing: https://ww2.minicircuits.com/pcb/98-pl094.pdf)
+mini-circuits CD542 pl-094
 0
-2
-2
-Jumper
-SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm
-SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open
-solder jumper open
+18
+6
+RF_Mini-Circuits
+Mini-Circuits_CD636_H4.11mm
+https://ww2.minicircuits.com/case_style/CD636.pdf
+RF Transformer
 0
-2
-2
-Jumper
-SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm
-SMD Solder 3-pad Jumper, 1x1.5mm Pads, 0.3mm gap, pads 1-2 Bridged2Bar with 2 copper strip
-net tie solder jumper bridged
+6
+6
+RF_Mini-Circuits
+Mini-Circuits_CD636_LandPatternPL-035
+Footprint for Mini-Circuits case CD636 (https://ww2.minicircuits.com/case_style/CD636.pdf) following land pattern PL-035, including GND-vias (https://ww2.minicircuits.com/pcb/98-pl035.pdf)
+mini-circuits pl-035 CD636
 0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm_NumberLabels
-SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, pads 1-2 Bridged2Bar with 2 copper strip, labeled with numbers
-net tie solder jumper bridged
+13
+6
+RF_Mini-Circuits
+Mini-Circuits_CD637_H5.23mm
+https://ww2.minicircuits.com/case_style/CD637.pdf
+RF Transformer
 0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm
-SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 Bridged2Bar with 2 copper strip
-net tie solder jumper bridged
+6
+6
+RF_Mini-Circuits
+Mini-Circuits_CK605
+Footprint for Mini-Circuits case CK605 (https://ww2.minicircuits.com/case_style/CK605.pdf)
+Mini-Circuits CK605
 0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm_NumberLabels
-SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 Bridged2Bar with 2 copper strip, labeled with numbers
-net tie solder jumper bridged
+16
+16
+RF_Mini-Circuits
+Mini-Circuits_CK605_LandPatternPL-012
+Footprint for Mini-Circuits case CK605 (https://ww2.minicircuits.com/case_style/CK605.pdf) following land pattern PL-012, including GND vias (https://ww2.minicircuits.com/pcb/98-pl012.pdf)
+Mini-Circuits PL-012
 0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm
-SMD Solder 3-pad Jumper, 1x1.5mm Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip
-net tie solder jumper bridged
+53
+16
+RF_Mini-Circuits
+Mini-Circuits_DB1627
+Mini-Circuits top-hat case DB1627 (https://ww2.minicircuits.com/case_style/DB1627.pdf)
+Mini-Circuits DB1627
 0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm_NumberLabels
-SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip, labeled with numbers
-net tie solder jumper bridged
+6
+6
+RF_Mini-Circuits
+Mini-Circuits_GP731
+Footprint for Mini-Circuits case GP731 (https://ww2.minicircuits.com/case_style/GP731.pdf)
+Mini-Circuits GP731
 0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm
-SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip
-net tie solder jumper bridged
+8
+8
+RF_Mini-Circuits
+Mini-Circuits_GP731_LandPatternPL-176
+Footprint for Mini-Circuits case GP731 (https://ww2.minicircuits.com/case_style/GP731.pdf) following land pattern PL-176, including GND vias (https://www.minicircuits.com/pcb/98-pl176.pdf)
+mini-circuits PL-176
 0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels
-SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip, labeled with numbers
-net tie solder jumper bridged
+21
+8
+RF_Mini-Circuits
+Mini-Circuits_GP1212
+Footprint for Mini-Circuits case GP1212 (https://ww2.minicircuits.com/case_style/GP731.pdf)
+mini-circuits GP1212
 0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm
-SMD Solder 3-pad Jumper, 1x1.5mm Pads, 0.3mm gap, open
-solder jumper open
+8
+8
+RF_Mini-Circuits
+Mini-Circuits_GP1212_LandPatternPL-176
+Footprint for Mini-Circuits case GP1212 (https://ww2.minicircuits.com/case_style/GP731.pdf) following land pattern PL-176, including GND vias (https://www.minicircuits.com/pcb/98-pl176.pdf)
+mini-circuits PL-176
 0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels
-SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open, labeled with numbers
-solder jumper open
+21
+8
+RF_Mini-Circuits
+Mini-Circuits_HF1139
+Footprint for Mini-Circuits case HF1139 (https://ww2.minicircuits.com/case_style/HF1139.pdf)
+Mini-Circuits HF1139
 0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm
-SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open
-solder jumper open
+8
+8
+RF_Mini-Circuits
+Mini-Circuits_HF1139_LandPatternPL-230
+Footprint for Mini-Circuits case HF1139 (https://ww2.minicircuits.com/case_style/HF1139.pdf) following land pattern PL-230, including GND vias (https://ww2.minicircuits.com/pcb/98-pl230.pdf)
+Mini-Circuits PL-230
 0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels
-SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open, labeled with numbers
-solder jumper open
+37
+8
+RF_Mini-Circuits
+Mini-Circuits_HQ1157
+Footprint for Mini-Circuits case HQ1157 (https://www.minicircuits.com/case_style/HQ1157.pdf)
+Mini-Circuits HQ1157
 0
-3
-3
-Jumper
-SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm
-SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open
-solder jumper open
+14
+14
+RF_Mini-Circuits
+Mini-Circuits_HZ1198
+Footprint for Mini-Circuits case HZ1198 (https://ww2.minicircuits.com/case_style/HZ1198.pdf)
+Mini-Circuits HZ1198
 0
-5
-3
-Jumper
-SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels
-SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open, labeled with numbers
-solder jumper open
+6
+6
+RF_Mini-Circuits
+Mini-Circuits_HZ1198_LandPatternPL-247
+Footprint for Mini-Circuits cas HZ1198 (https://ww2.minicircuits.com/case_style/HZ1198.pdf) following land pattern PL-247, including GND-vias (https://www.minicircuits.com/pcb/98-pl247.pdf)
+Mini-Circuits PL-247 HZ1198
 0
-5
-3
+40
+6
+RF_Mini-Circuits
+Mini-Circuits_MMM168
+Footprint for Mini-Circuits case MMM168 (https://ww2.minicircuits.com/case_style/MMM168.pdf)
+Mini-Circuits MMM168
+0
+4
+4
+RF_Mini-Circuits
+Mini-Circuits_MMM168_LandPatternPL-225
+Footprint for Mini-Circuits case MMM168, Land pattern PL-225, vias included, (case drawing: https://ww2.minicircuits.com/case_style/MMM168.pdf, land pattern drawing: https://ww2.minicircuits.com/pcb/98-pl225.pdf)
+pl-225
+0
+10
+4
+RF_Mini-Circuits
+Mini-Circuits_QQQ130_ClockwisePinNumbering
+Footprint for Mini-Circuits case QQQ130 (https://ww2.minicircuits.com/case_style/QQQ130.pdf)
+Mini-Circuits QQQ130
+0
+6
+6
+RF_Mini-Circuits
+Mini-Circuits_QQQ130_LandPattern_PL-236_ClockwisePinNumbering
+Footprint for Mini-Circuits case QQQ130 (https://ww2.minicircuits.com/case_style/QQQ130.pdf) following land pattern PL-236, including GND vias (https://ww2.minicircuits.com/pcb/98-pl236.pdf)
+Mini-Circuits PL-236
+0
+14
+6
+RF_Mini-Circuits
+Mini-Circuits_TT1224_ClockwisePinNumbering
+Footprint for Mini-Circuits case TT1224 (https://ww2.minicircuits.com/case_style/TT1224.pdf) following land-pattern PL-258, including GND-vias (https://www.minicircuits.com/pcb/98-pl258.pdf)
+Mini-Circuits TT1224
+0
+6
+6
+RF_Mini-Circuits
+Mini-Circuits_TT1224_LandPatternPL-258_ClockwisePinNumbering
+Footprint for Mini-Circuits case TT1224 (https://ww2.minicircuits.com/case_style/TT1224.pdf) following land-pattern PL-258, including GND-vias (https://www.minicircuits.com/pcb/98-pl258.pdf)
+PL-258 Mini-Circuits
+0
+26
+6
+RF_Mini-Circuits
+Mini-Circuits_TTT167
+Footprint for Mini-Circuits case TTT167 (https://ww2.minicircuits.com/case_style/TTT167.pdf)
+Mini-Circuits TTT167
+0
+6
+6
+RF_Mini-Circuits
+Mini-Circuits_TTT167_LandPatternPL-079
+Footprint for Mini-Circuits case TTT167 (Mini-Circuits_TTT167_LandPatternPL-079) following land pattern PL-079, including GND vias (https://ww2.minicircuits.com/pcb/98-pl079.pdf)
+Mini-Circuits PL-079
+0
+36
+6
+RF_Mini-Circuits
+Mini-Circuits_YY161
+Footprint for Mini-Circuits case YY161 (https://ww2.minicircuits.com/case_style/YY161.pdf)
+Mini-Circuits YY161
+0
+8
+8
+RF_Mini-Circuits
+Mini-Circuits_YY161_LandPatternPL-049
+Footprint for Mini-Circuits case YY161 (https://ww2.minicircuits.com/case_style/YY161.pdf) using land-pattern PL-049, including GND-connections and vias (https://ww2.minicircuits.com/pcb/98-pl049.pdf)
+mini-circuits pl-049
+0
+36
+8
