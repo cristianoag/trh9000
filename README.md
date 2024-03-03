@@ -7,11 +7,11 @@ Yamaha V9990 based open-source video card for the MSX
 
 If you ever spent just a few minutes on YouTube searching for MSX content, I bet you certainly found some footage covering the V9990. Well, not specifically the V9990 chip, but video cards based on it.
 
-The first video card based on the unreleased, kind of obscure Yamaha V9990 VDP chip was the Graphics9000 (or GFX9000). The GFX9000 is (was) an MSX standard graphics expansion device for home computers developed by Sunrise in 1994.
+The first video card based on the unreleased, kind of obscure Yamaha V9990 VDP chip was the Graphics9000 (or GFX9000). The GFX9000 is (was) a graphics expansion device for MSX computers developed by Sunrise in 1994.
 
 It was designed as an expansion cartridge for the MSX standard that can be installed in a slot on a computer that also connects to the computer’s video output and monitor. The device works as an additional independent video controller.
 
-The device is based on the Yamaha V9990 video controller (VDP). The chip was based on the never-produced V9978 chip, designed specifically for use in computers of the alleged but not implemented (by the time of this writing) MSX3 standard. Compared to the V9978, the V9990 is not backward compatible with the V99x8 chips, and thus cannot be used as the main video controller of standard MSX-compatible computers.
+The device is based on the Yamaha V9990 video controller (VDP). The chip was designed specifically for use in computers of the alleged but not implemented (by the time of this writing) MSX3 standard. The V9990 is not backward compatible with the V99x8 chips, and thus cannot be used as the main video controller of standard MSX-compatible computers.
 
 ## The TRH9000
 
@@ -77,7 +77,7 @@ Here is a diagram of the DH15 connector:
 
 The TRH9000 cartridge provides support for both S-Video and Composite video outputs. These video signals are transmitted through respective connectors that are also located on the upper edge of the cartridge PCB. 
 
-Please note that only the S-Video signal is accessible on the pin header in v1.3. The Composite signal becomes available starting from the v1.4 version. Svideo and RCA Composite connectores are only available from v1.5.
+Please note that only the S-Video signal is accessible on the pin header in v1.3. The Composite signal becomes available starting from the v1.4 version. Svideo and RCA Composite connectores are only available from v1.5 onwards.
 
 To utilize these signals on v1.4 or v1.3, you'll need to construct a cable that links the pin header to the S-Video or Composite input of your monitor.
 
@@ -149,8 +149,10 @@ Below you can find some pictures of the TRH9000 cartridge connector and the SVID
 |			X1	|14.31818MHz|	Oscillator_DIP-4|	1|[Ali Express](https://s.click.aliexpress.com/e/_DEBzKw3)
 |			RV1, RV2, RV3	|500R	|Potentiometer_Bourns_3314G_Vertical	|3|[Ali Express](https://s.click.aliexpress.com/e/_DnebEdD)
 |			Q1	|BC817	|SOT-23	|1|[Ali Express](https://s.click.aliexpress.com/e/_DBlTES3)
-|			J1	|S-Video	|PinHeader_1x04_P2.54mm_Vertical	|1|[Ali Express](https://www.aliexpress.com/item/4000660389713.html?spm=a2g0o.productlist.main.57.317d7e3eUGQTIV&algo_pvid=a46f4c47-7f70-444c-9afd-da63e8168c8d&algo_exp_id=a46f4c47-7f70-444c-9afd-da63e8168c8d-28&pdp_npi=4%40dis%21USD%210.58%210.58%21%21%210.58%21%21%40210318d116955940405873957e8c39%2110000005517155325%21sea%21BR%21178731568%21&curPageLogUid=7yUOMNZ7S7A6)
+|			J4	|S-Video	|Mini DIN 4 Pin Connector | 1 | [Ali Express](https://s.click.aliexpress.com/e/_De7X4Ud)
 |			J2	|RGB	|DSUB-15-HD_Female_Horizontal	|1|[Ali Express](https://s.click.aliexpress.com/e/_DntckRl)
+|            J3	|Composite	|RCA-2_Horizontal	|1|[Ali Express](https://s.click.aliexpress.com/e/_DBxnR6d)
+
 
 
 
@@ -172,7 +174,16 @@ There are a few folks activelly helping with the project and I would like to cal
 
 ## License 
 
-This work is licensed under the CERN OHL-S v2. You may redistribute and modify this project and its documentation under the terms of the CERN-OHL-S v2.
+![Open Hardware](images/ccans.png)
 
-![Open Hardware](https://raw.githubusercontent.com/cristianoag/trh9000/main/Images/1024px-Open-source-hardware-logo.svg.png)
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
+* If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+* You may not use the material for commercial purposes.
+* You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+
+**ATTENTION**
+
+This project was made for the retro community and not for commercial purposes. So only retro hardware forums and individual people can build this project.
+
+THE SALE OF ANY PART OF THIS PROJECT WITHOUT EXPRESS AUTHORIZATION IS PROHIBITED!
