@@ -174,7 +174,7 @@ There are a few folks activelly helping with the project and I would like to cal
 
 ## License 
 
-![Open Hardware](images/ccans.png)
+![Open Hardware](Images/ccans.png)
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
