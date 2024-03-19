@@ -1,4 +1,4 @@
-Designator,Footprint,Quantity,Value,LCSC Part #
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
 "C1, C17, C19, C22, C24",0805,5,0.1uF,
 "C10, C5",0805,2,47pF,
 "C11, C12, C13, C14, C15, C26, C9",CP_EIA-3528-15_AVX-H,7,220uF,
