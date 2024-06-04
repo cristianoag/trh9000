@@ -41,11 +41,11 @@ On its latest version, the TRH9000 features three types of video output connecto
 ### Video Output
 
 #### RGB 
-The TRH9000 cartridge produces RGB signal with a horizontal frequency of 15KHz, which was the standard at the time of the V9990 chip's release. If you plan to connect the cartridge directly to your monitor using a VGA cable, it's important to ensure that your monitor supports synchronization at 15KHz.
+The TRH9000 cartridge produces RGB signal with a horizontal frequency of 15.7KHz, which was the standard at the time of the V9990 chip's release. If you plan to connect the cartridge directly to your monitor using a VGA cable, it's important to ensure that your monitor supports synchronization at 15.7KHz.
 
-You can see a list of modern monitors with support to 15KHz available at http://15khz.wikidot.com/
+You can see a list of modern monitors with support to 15.7KHz available at http://15khz.wikidot.com/
 
-If you're not getting any image from the cartridge connector, it indicates that your monitor cannot sync at 15KHz. Typically, modern monitors can only sync at frequencies above 31KHz.
+If you're not getting any image from the cartridge connector, it indicates that your monitor cannot sync at 15.7KHz. Typically, modern monitors can only sync at frequencies above 31KHz.
 
 In such a scenario, you will require an adapter to upscale the frequency, making it compatible with your monitor. These adapters are commonly used for vintage video games and are readily available in various marketplaces. Here are a few options to consider:
 
@@ -65,7 +65,7 @@ If you decide to use the Retrotink you will need a VGA to SCART cable. That is e
 |5|--> |21 |GND
 |13|-->|20| Sync
 
-By request of the community a jumper was included on the latest PCB version to provide optionally 5V on the pin 9 of the VGA connector. This is useful for those who want to use build a SCART cable that depending on the monitor may require 5V in some pins. 
+By request of the community, a jumper was included on the latest PCB version to provide optionally 5V on the pin 9 of the VGA connector. This is useful for those who want to use build a SCART cable that depending on the monitor may require 5V in some pins. 
 
 The jumper is located on the back of the PCB and is labeled as "JP1". The default position is open, so if you need to use it, you will need to close it with a solder blob.
 
@@ -117,7 +117,7 @@ Below you can find some pictures of the TRH9000 cartridge connector and the SVID
 | --- | --- | --- |
 | ![SVIDEO1](Images/SVIDEO3.png) | ![SVIDEO2](Images/SVIDEO2.jpg) | ![SVIDEO3](Images/SVIDEO.jpg) |
 
-## Bill of Materials
+## Bill of Materials (v1.6)
 
 [TRH9000 Interactive BOM](https://htmlpreview.github.io/?https://github.com/cristianoag/trh9000/blob/main/Hardware/Kicad/TRH9000.cxa2075/bom/ibom.html)
 
