@@ -117,7 +117,7 @@ Below you can find some pictures of the TRH9000 cartridge connector and the SVID
 | --- | --- | --- |
 | ![SVIDEO1](Images/SVIDEO3.png) | ![SVIDEO2](Images/SVIDEO2.jpg) | ![SVIDEO3](Images/SVIDEO.jpg) |
 
-## Bill of Materials (v1.6)
+## Bill of Materials (v1.7)
 
 [TRH9000 Interactive BOM](https://htmlpreview.github.io/?https://github.com/cristianoag/trh9000/blob/main/Hardware/Kicad/TRH9000_1.7/bom/ibom.html)
 
