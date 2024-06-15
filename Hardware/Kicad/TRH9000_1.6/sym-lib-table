@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TRH9000")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/TRH9000.kicad_sym")(options "")(descr ""))
+  (lib (name "PJRAN1X1U02AUX")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/PJRAN1X1U02AUX.kicad_sym")(options "")(descr ""))
+  (lib (name "MD-40SM")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/MD-40SM.kicad_sym")(options "")(descr ""))
+)

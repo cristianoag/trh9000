@@ -51,9 +51,9 @@ In such a scenario, you will require an adapter to upscale the frequency, making
 
 ||Description|Link|
 |--|--|--|
-|![Alt text](image.png)|TZT HamGeek GBSC Converter GBS Control Retro Video Game Signal Converter Gaming Accessory  |[Ali Express](https://s.click.aliexpress.com/e/_DcZRM6T)
-|![Alt text](image-1.png)|OSSC HDMI-Compatible Converter Open Source Scan Adapter Kit with Game Cable for Retro Game Consoles  |[Ali Express](https://s.click.aliexpress.com/e/_DnNQGvv)
-|![Alt text](image-2.png)|Retrotink 2X Scart | https://www.retrotink.com/product-page/retrotink-2x-scart
+|![Alt text](images/image.png)|TZT HamGeek GBSC Converter GBS Control Retro Video Game Signal Converter Gaming Accessory  |[Ali Express](https://s.click.aliexpress.com/e/_DcZRM6T)
+|![Alt text](images/image-1.png)|OSSC HDMI-Compatible Converter Open Source Scan Adapter Kit with Game Cable for Retro Game Consoles  |[Ali Express](https://s.click.aliexpress.com/e/_DnNQGvv)
+|![Alt text](images/image-2.png)|Retrotink 2X Scart | https://www.retrotink.com/product-page/retrotink-2x-scart
 
 If you decide to use the Retrotink you will need a VGA to SCART cable. That is easy to solder and you need to connect the signals in the following way:
 
@@ -119,7 +119,7 @@ Below you can find some pictures of the TRH9000 cartridge connector and the SVID
 
 ## Bill of Materials (v1.6)
 
-[TRH9000 Interactive BOM](https://htmlpreview.github.io/?https://github.com/cristianoag/trh9000/blob/main/Hardware/Kicad/TRH9000.cxa2075/bom/ibom.html)
+[TRH9000 Interactive BOM](https://htmlpreview.github.io/?https://github.com/cristianoag/trh9000/blob/main/Hardware/Kicad/TRH9000_1.7/bom/ibom.html)
 
 |References|Value|Footprint|Qtd|Link|
 |-|-|-|-|-|
@@ -133,6 +133,7 @@ Below you can find some pictures of the TRH9000 cartridge connector and the SVID
 |C21|	47uF|	CP_EIA-3528-15_AVX-H|	1|[Ali Express](https://s.click.aliexpress.com/e/_DCrPttV)
 |R1, R3, R4, R5, R6, R10|	4K7	|R_0805_2012Metric|	6|[Ali Express](https://s.click.aliexpress.com/e/_DEyTmBN)
 |R14, R15, R16, R17, R18, R19|	75R	|R_0805_2012Metric|	6|[Ali Express](https://s.click.aliexpress.com/e/_DEyTmBN)
+|R20,R21,R22|470R|R_0805_2012Metric|3|[Ali Express](https://s.click.aliexpress.com/e/_DEyTmBN)
 |R7, R12|	2K2	|R_0805_2012Metric|	2|[Ali Express](https://s.click.aliexpress.com/e/_DEyTmBN)
 |			R2	|10M	|R_0805_2012Metric|	1|[Ali Express](https://s.click.aliexpress.com/e/_DEyTmBN)
 |			R8	|1K	|R_0805_2012Metric|	1|[Ali Express](https://s.click.aliexpress.com/e/_DEyTmBN)
