@@ -1,7 +1,7 @@
 # TRH9000
 The Yamaha V9990 based open-source video card for the MSX
 
-![TRH9000](labels/TRH9000_Label_72x52_Patolas.png)
+![TRH9000](Labels/TRH9000_Label_72x52_Patolas.png)
 
 ## Introduction
 
@@ -19,7 +19,7 @@ TRH9000 is an open-source implementation of the GFX9000, representing a communit
 
 | PCB Front | PCB Back |
 | --- | --- |
-| ![TRH9000](images/2025-01-01_08-23.png) | ![TRH9000](images/2025-01-01_08-23_1.png) |
+| ![TRH9000](Images/2025-01-01_08-23.png) | ![TRH9000](Images/2025-01-01_08-23_1.png) |
 
 The goal is to make those cards more accessible and improve the amount of software available for it. 
 
@@ -53,9 +53,9 @@ In such a scenario, you will require an adapter to upscale the frequency, making
 
 ||Description|Link|
 |--|--|--|
-|![Alt text](images/image.png)|TZT HamGeek GBSC Converter GBS Control Retro Video Game Signal Converter Gaming Accessory  |[Ali Express](https://s.click.aliexpress.com/e/_DcZRM6T)
-|![Alt text](images/image-1.png)|OSSC HDMI-Compatible Converter Open Source Scan Adapter Kit with Game Cable for Retro Game Consoles  |[Ali Express](https://s.click.aliexpress.com/e/_DnNQGvv)
-|![Alt text](images/image-2.png)|Retrotink 2X Scart | https://www.retrotink.com/product-page/retrotink-2x-scart
+|![Alt text](Images/image.png)|TZT HamGeek GBSC Converter GBS Control Retro Video Game Signal Converter Gaming Accessory  |[Ali Express](https://s.click.aliexpress.com/e/_DcZRM6T)
+|![Alt text](Images/image-1.png)|OSSC HDMI-Compatible Converter Open Source Scan Adapter Kit with Game Cable for Retro Game Consoles  |[Ali Express](https://s.click.aliexpress.com/e/_DnNQGvv)
+|![Alt text](Images/image-2.png)|Retrotink 2X Scart | https://www.retrotink.com/product-page/retrotink-2x-scart
 
 If you decide to use the Retrotink you will need a VGA to SCART cable. That is easy to solder and you need to connect the signals in the following way:
 
