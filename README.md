@@ -1,7 +1,7 @@
 # TRH9000
-Yamaha V9990 based open-source video card for the MSX
+The Yamaha V9990 based open-source video card for the MSX
 
-![TRH9000](Labels/TRH9000_Label_72x52_Patolas.png)
+![TRH9000](labels/TRH9000_Label_72x52_Patolas.png)
 
 ## Introduction
 
@@ -17,9 +17,9 @@ The device is based on the Yamaha V9990 video controller (VDP). The chip was des
 
 TRH9000 is an open-source implementation of the GFX9000, representing a community-driven effort to document everything necessary to build MSX cartridges that can run V9990 software.
 
-![TRH9000](Images/2024-02-22_14-27.png)
-
-![TRH9000](Images/2024-02-22_14-27_1.png)
+| PCB Front | PCB Back |
+| --- | --- |
+| ![TRH9000](images/2025-01-01_08-23.png) | ![TRH9000](images/2025-01-01_08-23_1.png) |
 
 The goal is to make those cards more accessible and improve the amount of software available for it. 
 
@@ -28,7 +28,9 @@ The goal is to make those cards more accessible and improve the amount of softwa
 The TRH9000 is a graphics expansion cartridge designed for MSX computers that was developed by a community of MSX enthusiasts as an open-source implementation of the GFX9000. 
 
 ### Selection Logic
-For the TRH9000, the control logic is implemented by two ICs. According to the not exhaustive list of IO ports documented [here](https://www.msx.org/wiki/I/O_Ports_List). The IO ports used the by an GFX9000 compatible cartridge must be 60h~6Fh*. The 74HCT138 IC on the board performs the selection of those IO ports and with the aid of the 74HC32 performs the activation of the appropriate signals on the V9990 chip.
+For the TRH9000, the control logic is implemented by two ICs. According to the not exhaustive list of IO ports documented [here](https://www.msx.org/wiki/I/O_Ports_List). The IO ports used the by an GFX9000 compatible cartridge must be 60h~6Fh*. The 74LS138 IC on the board performs the selection of those IO ports and with the aid of the 74LS32 performs the activation of the appropriate signals on the V9990 chip.
+
+> **Note:** Very important to use the 74LS138 and 74LS32 ICs. The 74HC138 and 74HC32 are not 100% compatible with the logic levels used by old MSX computers and if used, the cartridge may not work properly. 74HCT138 and 74HCT32 are also compatible with the old logic levels and can be used as a replacement.
 
 ### RAM chips
 
@@ -75,49 +77,9 @@ Here is a diagram of the DH15 connector:
 
 #### S-Video and Composite
 
-The TRH9000 cartridge provides support for both S-Video and Composite video outputs. These video signals are transmitted through respective connectors that are also located on the upper edge of the cartridge PCB. 
+The TRH9000 cartridge provides support for both S-Video and Composite video outputs. These video signals are transmitted through respective connectors that are located on the upper edge of the cartridge PCB. 
 
-Please note that only the S-Video signal is accessible on the pin header in v1.3. The Composite signal becomes available starting from the v1.4 version. Svideo and RCA Composite connectores are only available from v1.5 onwards.
-
-To utilize these signals on v1.4 or v1.3, you'll need to construct a cable that links the pin header to the S-Video or Composite input of your monitor.
-
-The pinout of the pin header is as follows:
-
-![SVideo and Composite pinout](Images/TRH9000_pinout.jpg)
-
-As a reference the following image presents the pinout for S-Video and Composite connectors:
-
-![Alt text](Images/SVIDEO_COMPOSITE.jpg)
-
-Please use the tables shown below to build your cables.
-
-* S-SVIDEO uses COUT, YOUT and GND
-
-|Pin Svideo|TRH9000 Pin Header|Signal|
-|-|-|-|
-|1 - GND|2 - GND|Ground|
-|2 - GND|2 - GND|Ground|
-|3 - Y|3 - YOUT|Luminance|
-|4 - C|1 - COUT|Chrominance|
-
-* Composite uses CVOUT and GND
-
-|Pin Composite|TRH9000 Pin Header|Signal|
-|-|-|-|
-|SIGNAL|1 - CVOUT |Composite Signal|
-|GROUND|2 - GND|Ground|
-
-For optimal cable construction and secure locking during use, I recommend using an XHB2.54 angled connector with a buckle. This item is available for purchase on Ali Express [here](https://s.click.aliexpress.com/e/_DDveDbh).
-
-![Alt text](Images/XHB2.54.jpeg)
-
-Below you can find some pictures of the TRH9000 cartridge connector and the SVIDEO cable. These images can help you better understand how to connect your cartridge to your monitor and ensure that you have a stable video output.
-
-| XHB2.54 Connector Soldered | XHB2.54 Case Hole | S-Video Cable Connected to TRH9000 |
-| --- | --- | --- |
-| ![SVIDEO1](Images/SVIDEO3.png) | ![SVIDEO2](Images/SVIDEO2.jpg) | ![SVIDEO3](Images/SVIDEO.jpg) |
-
-## Bill of Materials (v1.7)
+## Bill of Materials
 
 [TRH9000 Interactive BOM](https://htmlpreview.github.io/?https://github.com/cristianoag/trh9000/blob/main/Hardware/Kicad/TRH9000_1.7/bom/ibom.html)
 
@@ -154,10 +116,7 @@ Below you can find some pictures of the TRH9000 cartridge connector and the SVID
 |			J2	|RGB	|DSUB-15-HD_Female_Horizontal	|1|[Ali Express](https://s.click.aliexpress.com/e/_DntckRl)
 |            J3	|Composite	|RCA-2_Horizontal	|1|[Ali Express](https://s.click.aliexpress.com/e/_DBxnR6d)
 
-
-
-
-## Kudos
+## Community Contributions
 
 There are a few folks activelly helping with the project and I would like to call them out here:
 
